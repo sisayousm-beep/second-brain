@@ -1,0 +1,8 @@
+{
+  "apiKey": "",
+  "model": "gemini-2.5-flash",
+  "outputFolder": "자료/유튜브 요약",
+  "summaryLanguage": "ko",
+  "appendLinkToSource": true,
+  "prompt": "이 YouTube 영상을 한국어로 정리해줘.\n\n형식:\n1. 한 문단 핵심 요약\n2. 중요한 내용 5-10개\n3. 영상에서 언급된 도구, 인물, 작품, 회사, 개념\n4. 나중에 다시 볼 만한 포인트\n5. Obsidian에 남길 태그 3-7개\n\n가능하면 중요한 장면이나 주제에 타임스탬프를 붙여줘."
+}

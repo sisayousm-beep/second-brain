@@ -1,0 +1,47 @@
+.workspace-leaf-content[data-type="graph"] .view-content {
+  background:
+    radial-gradient(circle at 18% 16%, rgba(255, 79, 216, 0.08), transparent 30%),
+    radial-gradient(circle at 82% 22%, rgba(0, 215, 255, 0.09), transparent 32%),
+    linear-gradient(135deg, #050511 0%, #0d1020 52%, #060711 100%);
+}
+
+.graph-view.color-fill {
+  color: #f8f7ff;
+}
+
+.graph-view.color-fill-tag {
+  color: #b8ff3d;
+}
+
+.graph-view.color-fill-attachment {
+  color: #ffb000;
+}
+
+.graph-view.color-fill-unresolved {
+  color: #5d6480;
+}
+
+.graph-view.color-arrow,
+.graph-view.color-line {
+  color: rgba(172, 186, 255, 0.28);
+}
+
+.graph-view.color-circle {
+  color: rgba(245, 247, 255, 0.35);
+}
+
+.graph-view.color-text {
+  color: #dfe7ff;
+}
+
+.graph-view.color-fill-highlight {
+  color: #fff45e;
+}
+
+.graph-view.color-line-highlight {
+  color: #00d7ff;
+}
+
+.graph-view.color-fill-focused {
+  color: #ffffff;
+}

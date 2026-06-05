@@ -1,0 +1,16 @@
+.youtube-gemini-block {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  padding: 12px;
+  background: var(--background-secondary);
+}
+
+.youtube-gemini-block button {
+  margin-top: 8px;
+}
+
+.youtube-gemini-url {
+  font-size: 0.9em;
+  color: var(--text-muted);
+  word-break: break-all;
+}
