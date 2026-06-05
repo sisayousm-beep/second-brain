@@ -1,0 +1,100 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:홈",
+      "color": {
+        "a": 1,
+        "rgb": 16119807
+      }
+    },
+    {
+      "query": "path:개인",
+      "color": {
+        "a": 1,
+        "rgb": 55295
+      }
+    },
+    {
+      "query": "path:일정",
+      "color": {
+        "a": 1,
+        "rgb": 16770669
+      }
+    },
+    {
+      "query": "path:학업",
+      "color": {
+        "a": 1,
+        "rgb": 9395455
+      }
+    },
+    {
+      "query": "path:\"자산과 일\"",
+      "color": {
+        "a": 1,
+        "rgb": 3014536
+      }
+    },
+    {
+      "query": "path:AI",
+      "color": {
+        "a": 1,
+        "rgb": 16732120
+      }
+    },
+    {
+      "query": "path:개발",
+      "color": {
+        "a": 1,
+        "rgb": 3112447
+      }
+    },
+    {
+      "query": "path:자동화",
+      "color": {
+        "a": 1,
+        "rgb": 49062
+      }
+    },
+    {
+      "query": "path:\"취미/게임\"",
+      "color": {
+        "a": 1,
+        "rgb": 16752412
+      }
+    },
+    {
+      "query": "path:\"취미/유튜브\"",
+      "color": {
+        "a": 1,
+        "rgb": 16726832
+      }
+    },
+    {
+      "query": "path:\"취미/음악\"",
+      "color": {
+        "a": 1,
+        "rgb": 12123965
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0.2,
+  "nodeSizeMultiplier": 1.15,
+  "lineSizeMultiplier": 1.05,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 235,
+  "scale": 1.7055069404881351,
+  "close": true
+}

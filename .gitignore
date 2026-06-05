@@ -1,0 +1,13 @@
+# Obsidian 임시/캐시 파일 및 모바일 설정 제외
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/obsidian-git/
+
+# OS/시스템 임시 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 자동화 서브 깃 저장소 제외 (서브모듈이나 별도 리포지토리로 관리하므로 주 저장소 추적에서 제외)
+자동화/세컨드브레인자동화/
