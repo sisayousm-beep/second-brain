@@ -65,6 +65,12 @@ module.exports = class YouTubeGeminiSummarizerPlugin extends Plugin {
     });
 
     this.addCommand({
+      id: "summarize-unsummarized-youtube-links-in-note",
+      name: "현재 노트의 미요약 YouTube 링크만 요약",
+      callback: () => this.summarizeUnsummarizedLinksInActiveFile(),
+    });
+
+    this.addCommand({
       id: "summarize-youtube-link-from-input",
       name: "YouTube 링크 입력해서 요약",
       callback: () => {
@@ -135,6 +141,57 @@ module.exports = class YouTubeGeminiSummarizerPlugin extends Plugin {
     for (const url of urls) {
       await this.summarizeUrl(url, file);
     }
+  }
+
+  async summarizeUnsummarizedLinksInActiveFile() {
+    const file = this.app.workspace.getActiveFile();
+    if (!file) {
+      new Notice("활성 노트가 없습니다.");
+      return;
+    }
+
+    const content = await this.app.vault.read(file);
+    const urls = this.extractYouTubeUrls(content);
+    if (urls.length === 0) {
+      new Notice("현재 노트에서 YouTube 링크를 찾지 못했습니다.");
+      return;
+    }
+
+    const summarizedVideoIds = this.extractSummarizedVideoIds(content);
+    const pendingUrls = urls.filter((url) => {
+      const videoId = this.extractVideoId(url);
+      return !videoId || !summarizedVideoIds.has(videoId);
+    });
+    const skippedCount = urls.length - pendingUrls.length;
+
+    if (pendingUrls.length === 0) {
+      new Notice(`이미 요약한 YouTube 링크 ${skippedCount}개를 건너뛰었습니다. 새로 요약할 링크가 없습니다.`);
+      return;
+    }
+
+    new Notice(`미요약 YouTube 링크 ${pendingUrls.length}개를 요약합니다. 이미 요약한 링크 ${skippedCount}개는 건너뜁니다.`);
+    for (const url of pendingUrls) {
+      await this.summarizeUrl(url, file);
+    }
+  }
+
+  extractSummarizedVideoIds(content) {
+    const summarizedVideoIds = new Set();
+    const summaryLines = content
+      .split(/\r?\n/)
+      .filter((line) => line.includes("YouTube") && line.includes("[[") && line.includes("]]"));
+
+    for (const line of summaryLines) {
+      const urls = this.extractYouTubeUrls(line);
+      for (const url of urls) {
+        const videoId = this.extractVideoId(url);
+        if (videoId) {
+          summarizedVideoIds.add(videoId);
+        }
+      }
+    }
+
+    return summarizedVideoIds;
   }
 
   async summarizeUrl(url, sourceFile = null) {

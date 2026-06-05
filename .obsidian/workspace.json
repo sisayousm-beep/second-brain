@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "c5a64c512d3d2b1f",
+        "id": "359da6801b5d59e4",
         "type": "tabs",
         "children": [
           {
-            "id": "eeb3945bb9fb16bf",
+            "id": "3c26c03b166ca4c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "일정/스케줄 관리.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "스케줄 관리"
-            }
-          },
-          {
-            "id": "b2df78889d521fec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "자산과 일/정기 구독.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "정기 구독"
-            }
-          },
-          {
-            "id": "636c843891f679fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "개발/프로젝트.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "프로젝트"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "과외",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -209,44 +176,45 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "636c843891f679fa",
+  "active": "3c26c03b166ca4c9",
   "lastOpenFiles": [
-    "개발/프로젝트/YouTube Gemini Summarizer.md",
-    "개발/프로젝트/ATLAS.md",
-    "자동화/세컨드브레인자동화/설정.md.tmp.21076.066a619b442b",
-    "자동화/세컨드브레인자동화/README.md.tmp.21076.33dc6a66a860",
-    "자동화/세컨드브레인자동화/AGENTS.md",
-    "자동화/세컨드브레인자동화/AGENTS.md.tmp.21076.21598a117140",
-    "AI/Grok.md",
-    "AI/GPT.md",
-    "AI/AI 정보 추적.md",
-    "AI/AI 에이전트.md",
-    "AI/제미나이.md",
-    "학업/시험 일정.md",
-    "학업/시간표.md",
-    "학업/대학교.md",
-    "학업/2026년 1학기.md",
-    "학업/과목/해석개론.md",
-    "학업/과목/선형대수.md",
-    "학업/과목/벡터해석.md",
+    "유튜브 요약.md",
+    "자료/유튜브 요약/2026-06-05 YouTube 요약 i1rbfUeSZMc.md",
+    "자료/유튜브 요약/2026-06-05 YouTube 요약 -VuZmoc-Sq8.md",
+    "자료/유튜브 요약/2026-06-05 YouTube 요약 -7OzstATOxg.md",
+    "자산과 일/종목/삼성전자.md",
+    "개발/프로젝트/General Gemini Link Summarizer.md",
+    "자산과 일/종목/반도체 섹터.md",
+    "참고자료/대학 시간표.png",
+    "참고자료/주식 포트폴리오.png",
     "학업/과목/미분방정식.md",
     "학업/과목/기하학.md",
-    "취미/게임.md",
-    "취미/음악/일본 음악.md",
-    "취미/음악/음악.md",
-    "취미/음악/스포티파이.md",
-    "취미/음악/공연 정보.md",
-    "취미/음악/아티스트/요네즈 켄시.md",
-    "취미/음악/아티스트/오피셜 히게단디즘.md",
-    "취미/음악/아티스트/아도.md",
-    "참고자료/주식 포트폴리오.png",
-    "참고자료/대학 시간표.png",
-    "참고자료",
-    "새 폴더",
-    "자동화/세컨드브레인자동화/briefings/market",
-    "자동화/세컨드브레인자동화/briefings/schedule",
-    "자동화/세컨드브레인자동화/briefings",
-    "자동화/세컨드브레인자동화/scripts/market_news_briefing.mjs",
-    "자동화/세컨드브레인자동화/scripts/daily_schedule_briefing.mjs"
+    "일정/중요 날짜.md",
+    "일정/반복 일정.md",
+    "일정/스케줄 관리.md",
+    "자료/유튜브 요약/2026-06-05 YouTube 요약 -7OzstATOxg 2.md",
+    "자료/유튜브 요약/2026-06-05 YouTube 요약 i1rbfUeSZMc 2.md",
+    "second brain",
+    "개발/프로젝트/YouTube Gemini Summarizer.md",
+    "자산과 일/수학 과외.md",
+    "자료/유튜브 요약",
+    "자료",
+    "자동화/세컨드브레인자동화/data/반복 일정.md",
+    "자동화/세컨드브레인자동화/data/중요 날짜.md",
+    "개발/프로젝트/ATLAS.md",
+    "자동화/세컨드브레인자동화/register_scheduler.ps1",
+    "AI/제미나이.md",
+    "자동화/세컨드브레인자동화/run_stock_briefing.bat",
+    "자동화/세컨드브레인자동화/run_daily_briefing.bat",
+    "개인/프로필.md",
+    "개인/입대.md",
+    "개인/거주와 통학.md",
+    "자산과 일/종목/인텔.md",
+    "자산과 일/종목/엔비디아.md",
+    "자산과 일/종목/아메리칸 익스프레스.md",
+    "자동화/세컨드브레인자동화/src/stock_briefing.py",
+    "자동화/세컨드브레인자동화/sync.bat",
+    "자동화/세컨드브레인자동화/sync.py",
+    "자동화/세컨드브레인자동화/data"
   ]
 }

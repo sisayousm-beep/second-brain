@@ -1,0 +1,10 @@
+{
+  "id": "general-gemini-link-summarizer",
+  "name": "General Gemini Link Summarizer",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Summarize general web links with Gemini API and save the result as Markdown notes.",
+  "author": "Codex",
+  "authorUrl": "https://github.com/sisayousm-beep",
+  "isDesktopOnly": false
+}
