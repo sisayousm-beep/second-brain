@@ -1,5 +1,119 @@
 [
   {
+    "file": "AGENTS.md",
+    "hash": "765d984807810344aad844a04bb70196940698314244c5773b456dd4bd57947b",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "AI.md",
+    "summary": "AI 관련 주제들을 종합적으로 관리하는 허브 문서입니다. 주요 하위 문서로 AI 정보 추적, AI 에이전트, AI 미디어 생성, 그리고 Claude, Codex, GPT, Gemini, Grok 등의 AI 도구 문서를 포함합니다. 최신 AI 정보 추적과 도구별 평가를 위한 운영 원칙을 명시합니다.",
+    "keywords": [
+      "AI",
+      "인공지능",
+      "허브 문서",
+      "AI 도구",
+      "정보 관리",
+      "운영 원칙",
+      "LLM"
+    ],
+    "tags": [
+      "ai",
+      "hub"
+    ],
+    "related_topics": [
+      "홈",
+      "AI 정보 추적",
+      "AI 에이전트",
+      "AI 미디어 생성",
+      "대규모 언어 모델",
+      "AI 도구 평가"
+    ]
+  },
+  {
+    "file": "AI/AI 미디어 생성.md",
+    "hash": "92b72524226bd901aac93a2d25f5562cc0234dd51f88ce2dc6d58196b43fe144",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "AI/AI 에이전트.md",
+    "hash": "b5e121a605495962d5c9dab0dabe7afc1961f1870a866d8a087c250c24826f23",
+    "summary": "이 문서는 현재 AI 에이전트(클로드, 코덱스, GPT, 제미나이)의 활용 현황과 도구별 체감 역할을 다루며, 정보 검색, 고난도 코딩, 최고 지능 평가 등 각 에이전트의 장점을 언급한다. 향후 에이전트별 장단점, 코딩 자동화 사례, 가격, 프롬프트 및 워크플로우, 실제 체감 성능 기록 등 탐색할 분야를 제시한다.",
+    "keywords": [
+      "AI 에이전트",
+      "클로드",
+      "코덱스",
+      "GPT",
+      "제미나이",
+      "코딩 자동화",
+      "프롬프트",
+      "워크플로우",
+      "AI 도구 비교"
+    ],
+    "tags": [
+      "ai",
+      "agents",
+      "AI도구",
+      "LLM",
+      "생산성"
+    ],
+    "related_topics": [
+      "AI",
+      "프롬프트 엔지니어링",
+      "개발 생산성",
+      "대규모 언어 모델"
+    ]
+  },
+  {
+    "file": "AI/AI 정보 추적.md",
+    "hash": "40c6f0c21587ad571d501eab91129f358f3c73aef40b795bf08806399669dee1",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "AI/GPT.md",
+    "hash": "6b2c6c026407cdf9a1a785d58b96b0c1849781a68f345d5324d23f1bdee3dc4b",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "AI/Grok.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "AI/제미나이.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "AI/코덱스.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "AI/클로드.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
     "file": "Second_Brain_Guidelines.md",
     "summary": "이 문서는 Codex 시스템(세컨드 브레인) 내에서 수학 노트 작성 지침(LaTeX 수식 사용)과 전반적인 문서 정리 원칙을 제시합니다. 주요 내용은 위키링크 사용법, 최상위 허브 구조, 과목 노트 및 일정 관리 방식, 일상 기록 처리 방법 등을 포함합니다.",
     "keywords": [
@@ -35,80 +149,6 @@
     ]
   },
   {
-    "file": "자산과 일.md",
-    "summary": "자산과 일 허브 문서는 개인의 자산, 재정 관리 및 수입 활동을 통합적으로 관리하기 위한 상위 문서입니다. 주식 포트폴리오, 정기 구독, 특정 금융 상품(청년미래적금), 수입원(수학 과외) 등 다양한 하위 문서를 포함하며, 금융 관련 정보 접근 및 수입/지출 관리에 대한 운영 원칙을 제시합니다.",
-    "keywords": [
-      "자산 관리",
-      "금융",
-      "투자",
-      "재정",
-      "수입",
-      "지출",
-      "포트폴리오",
-      "구독",
-      "저축"
-    ],
-    "tags": [
-      "finance",
-      "work",
-      "hub"
-    ],
-    "related_topics": [
-      "개인 재정 관리",
-      "투자 전략",
-      "예산 관리",
-      "재테크",
-      "소비 관리"
-    ]
-  },
-  {
-    "file": "유튜브 요약.md",
-    "summary": "다양한 유튜브 영상 링크를 모아놓은 색인 문서입니다. 특히 2026년 6월 5일 Vibe Coding과 Base44를 활용한 앱 개발 초보자 가이드 영상에 대한 간략한 요약이 포함되어 있습니다.",
-    "keywords": [
-      "유튜브",
-      "영상",
-      "링크",
-      "색인",
-      "앱 개발",
-      "초보자 가이드",
-      "Vibe Coding",
-      "Base44"
-    ],
-    "tags": [
-      "youtube-summary",
-      "references",
-      "video-list"
-    ],
-    "related_topics": [
-      "자료와 참고",
-      "웹 개발",
-      "코딩 가이드"
-    ]
-  },
-  {
-    "file": "자료와 참고.md",
-    "summary": "외부 자료, 요약 결과, 참고 이미지 등을 관리하기 위한 허브 문서입니다. 자료 관리 운영 원칙과 하위 문서 목록을 포함합니다.",
-    "keywords": [
-      "자료 관리",
-      "참고 자료",
-      "외부 자료",
-      "요약",
-      "운영 원칙",
-      "허브"
-    ],
-    "tags": [
-      "참고 자료",
-      "아카이브",
-      "허브"
-    ],
-    "related_topics": [
-      "홈",
-      "유튜브 요약",
-      "지식 관리",
-      "세컨드 브레인"
-    ]
-  },
-  {
     "file": "requirements.txt",
     "summary": "Google Generative AI Python SDK 라이브러리. Python 애플리케이션에서 Google의 생성형 AI 모델(예: Gemini)을 활용할 수 있게 합니다.",
     "keywords": [
@@ -131,108 +171,6 @@
       "Google Cloud Platform",
       "AI 개발",
       "생성형 AI"
-    ]
-  },
-  {
-    "file": "일정.md",
-    "summary": "이 문서는 '일정' 관리를 위한 허브 문서입니다. '홈' 문서의 하위이며, '스케줄 관리', '중요 날짜', '반복 일정'이라는 하위 문서를 포함합니다. 운영 원칙으로 일정을 먼저 중요 날짜와 반복 일정에 기록하고, 자동 브리핑 및 일정 처리 방식은 스케줄 관리에서 관리한다고 명시합니다.",
-    "keywords": [
-      "일정",
-      "스케줄 관리",
-      "중요 날짜",
-      "반복 일정",
-      "운영 원칙",
-      "허브"
-    ],
-    "tags": [
-      "schedule",
-      "hub"
-    ],
-    "related_topics": [
-      "홈",
-      "스케줄 관리",
-      "중요 날짜",
-      "반복 일정"
-    ]
-  },
-  {
-    "file": "취미.md",
-    "summary": "다양한 취미 활동을 관리하기 위한 허브 문서입니다. 게임, 음악, 유튜브, 마법학 아카데미 등의 하위 취미 문서들을 연결하며, 채널, 아티스트, 세부 설정 등은 각 하위 문서에서 접근하도록 하고 홈 문서에서는 취미 세부 문서를 직접 연결하지 않는 운영 원칙을 명시합니다.",
-    "keywords": [
-      "취미",
-      "허브",
-      "하위 문서",
-      "운영 원칙",
-      "게임",
-      "음악",
-      "유튜브",
-      "마법학 아카데미"
-    ],
-    "tags": [
-      "hobby",
-      "hub"
-    ],
-    "related_topics": [
-      "홈",
-      "게임",
-      "음악",
-      "유튜브",
-      "마법학 아카데미"
-    ]
-  },
-  {
-    "file": "개인.md",
-    "summary": "개인적인 상태, 생활 기록, 입대 관련 정보, 거주 및 통학, 그리고 일상 기록에 접근하기 위한 허브 문서. 날짜별 일상 기록은 '일상 기록' 문서에서 관리한다는 운영 원칙을 명시한다.",
-    "keywords": [
-      "개인",
-      "생활 기록",
-      "입대",
-      "일상 기록",
-      "프로필",
-      "허브"
-    ],
-    "tags": [
-      "personal",
-      "hub"
-    ],
-    "related_topics": [
-      "홈",
-      "프로필",
-      "입대",
-      "거주와 통학",
-      "일상 기록"
-    ]
-  },
-  {
-    "file": "홈.md",
-    "summary": "세컨드 브레인의 최상위 인덱스 문서로, 개인, 일정, 학업, 자산, AI, 개발, 취미 등 주요 분류 체계를 제시합니다. 현재 입대 전 개인 정보, 관심사, 자산 상태, AI 활용 흐름 정리, 기말고사 준비, 청년미래적금 가입 등의 단기 목표에 집중하고 있음을 명시합니다. 이 문서는 최상위 허브 역할을 하며, 세부 내용은 각 허브 문서에서 관리될 예정입니다.",
-    "keywords": [
-      "세컨드 브레인",
-      "인덱스",
-      "분류",
-      "계획",
-      "정리",
-      "입대",
-      "학업",
-      "자산",
-      "AI",
-      "목표"
-    ],
-    "tags": [
-      "second-brain",
-      "인덱스",
-      "계획",
-      "학업",
-      "금융",
-      "개인"
-    ],
-    "related_topics": [
-      "개인 정보 관리",
-      "학업 계획",
-      "자산 관리",
-      "군 입대 준비",
-      "AI 활용 전략",
-      "생산성 시스템"
     ]
   },
   {
@@ -259,54 +197,85 @@
     ]
   },
   {
-    "file": "AI.md",
-    "summary": "AI 관련 주제들을 종합적으로 관리하는 허브 문서입니다. 주요 하위 문서로 AI 정보 추적, AI 에이전트, AI 미디어 생성, 그리고 Claude, Codex, GPT, Gemini, Grok 등의 AI 도구 문서를 포함합니다. 최신 AI 정보 추적과 도구별 평가를 위한 운영 원칙을 명시합니다.",
-    "keywords": [
-      "AI",
-      "인공지능",
-      "허브 문서",
-      "AI 도구",
-      "정보 관리",
-      "운영 원칙",
-      "LLM"
-    ],
-    "tags": [
-      "ai",
-      "hub"
-    ],
-    "related_topics": [
-      "홈",
-      "AI 정보 추적",
-      "AI 에이전트",
-      "AI 미디어 생성",
-      "대규모 언어 모델",
-      "AI 도구 평가"
-    ]
+    "file": "개발/GitHub.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
   },
   {
-    "file": "학업.md",
-    "summary": "학업 관련 정보들을 통합 관리하는 허브 문서. 대학교, 학기별 세부 내용, 시간표, 시험 일정을 하위 문서로 포함하며, 과목별 정보 및 모든 학업 관련 활동을 학업 영역 내에서 연결하는 운영 원칙을 명시합니다.",
+    "file": "개발/프로젝트.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "개발/프로젝트/ATLAS.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "개발/프로젝트/General Gemini Link Summarizer.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "개발/프로젝트/YouTube Gemini Summarizer.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "개인.md",
+    "summary": "개인적인 상태, 생활 기록, 입대 관련 정보, 거주 및 통학, 그리고 일상 기록에 접근하기 위한 허브 문서. 날짜별 일상 기록은 '일상 기록' 문서에서 관리한다는 운영 원칙을 명시한다.",
     "keywords": [
-      "학업",
-      "대학교",
-      "학기",
-      "시간표",
-      "시험",
-      "학습 관리",
+      "개인",
+      "생활 기록",
+      "입대",
+      "일상 기록",
+      "프로필",
       "허브"
     ],
     "tags": [
-      "study",
-      "university",
+      "personal",
       "hub"
     ],
     "related_topics": [
       "홈",
-      "대학교",
-      "2026년 1학기",
-      "시간표",
-      "시험 일정",
-      "복기"
+      "프로필",
+      "입대",
+      "거주와 통학",
+      "일상 기록"
+    ]
+  },
+  {
+    "file": "개인/거주와 통학.md",
+    "summary": "이 문서는 인천 청라 롯대캐슬에서의 거주와 숭실대학교로의 통학 정보를 정리합니다. 약 2시간이 소요되는 통학 시간 동안 주로 노트북을 사용하거나 발라트로 게임을 합니다. '롯대캐슬' 표기는 사용자 발언을 따른 것입니다.",
+    "keywords": [
+      "거주",
+      "통학",
+      "인천",
+      "청라",
+      "롯대캐슬",
+      "숭실대학교",
+      "통학 시간",
+      "노트북",
+      "발라트로",
+      "개인"
+    ],
+    "tags": [
+      "personal",
+      "commute",
+      "location"
+    ],
+    "related_topics": [
+      "개인"
     ]
   },
   {
@@ -326,6 +295,74 @@
       "개인",
       "2026-06-05",
       "2026-06-06"
+    ]
+  },
+  {
+    "file": "개인/일상 기록/2026-06-05.md",
+    "summary": "2026년 6월 5일의 일상 기록으로, 굽네 바사삭 치킨 식사, 미분방정식 쪽지시험 (헤비사이드 스텝 함수 및 라플라스 변환 공식 미흡), 중1 수학 과외 (삼각형의 합동 조건까지 진행), 그리고 유튜버 '근가놈'의 독타입챌린지 시청 등의 활동이 포함됩니다.",
+    "keywords": [
+      "굽네 바사삭 치킨",
+      "미분방정식",
+      "쪽지시험",
+      "헤비사이드 스텝 함수",
+      "라플라스 변환",
+      "수학 과외",
+      "중1 수학",
+      "삼각형의 합동 조건",
+      "근가놈",
+      "독타입챌린지"
+    ],
+    "tags": [
+      "personal",
+      "daily-log",
+      "학업",
+      "식사",
+      "일",
+      "취미"
+    ],
+    "related_topics": [
+      "일상 기록",
+      "대학교 학업",
+      "미분방정식 학습",
+      "수학 교육",
+      "치킨 요리/음식",
+      "유튜브 시청"
+    ]
+  },
+  {
+    "file": "개인/일상 기록/2026-06-06.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "개인/입대.md",
+    "summary": "2026년 6월 군 입대를 위한 계획 및 준비 사항을 정리한 문서. 입영판정검사(6월 22일)와 입대 예정일(6월 30일) 등 핵심 날짜를 명시하고 있으며, 입대 전 개인 자료 정리, 재정 관리(청년미래적금), 학업(기말고사, 과외), 디지털 루틴 정비 등 완료해야 할 작업 목록을 포함한다.",
+    "keywords": [
+      "입대",
+      "군 입대",
+      "입영판정검사",
+      "입대 준비",
+      "계획",
+      "개인 자료 정리",
+      "자산 관리",
+      "학업 마무리"
+    ],
+    "tags": [
+      "military",
+      "timeline",
+      "입대",
+      "개인",
+      "계획",
+      "준비"
+    ],
+    "related_topics": [
+      "개인",
+      "군 생활",
+      "재정 관리",
+      "학업 계획",
+      "인생 이벤트"
     ]
   },
   {
@@ -370,183 +407,53 @@
     ]
   },
   {
-    "file": "개인/거주와 통학.md",
-    "summary": "이 문서는 인천 청라 롯대캐슬에서의 거주와 숭실대학교로의 통학 정보를 정리합니다. 약 2시간이 소요되는 통학 시간 동안 주로 노트북을 사용하거나 발라트로 게임을 합니다. '롯대캐슬' 표기는 사용자 발언을 따른 것입니다.",
+    "file": "유튜브 요약.md",
+    "summary": "다양한 유튜브 영상 링크를 모아놓은 색인 문서입니다. 특히 2026년 6월 5일 Vibe Coding과 Base44를 활용한 앱 개발 초보자 가이드 영상에 대한 간략한 요약이 포함되어 있습니다.",
     "keywords": [
-      "거주",
-      "통학",
-      "인천",
-      "청라",
-      "롯대캐슬",
-      "숭실대학교",
-      "통학 시간",
-      "노트북",
-      "발라트로",
-      "개인"
+      "유튜브",
+      "영상",
+      "링크",
+      "색인",
+      "앱 개발",
+      "초보자 가이드",
+      "Vibe Coding",
+      "Base44"
     ],
     "tags": [
-      "personal",
-      "commute",
-      "location"
+      "youtube-summary",
+      "references",
+      "video-list"
     ],
     "related_topics": [
-      "개인"
+      "자료와 참고",
+      "웹 개발",
+      "코딩 가이드"
     ]
   },
   {
-    "file": "개인/입대.md",
-    "summary": "2026년 6월 군 입대를 위한 계획 및 준비 사항을 정리한 문서. 입영판정검사(6월 22일)와 입대 예정일(6월 30일) 등 핵심 날짜를 명시하고 있으며, 입대 전 개인 자료 정리, 재정 관리(청년미래적금), 학업(기말고사, 과외), 디지털 루틴 정비 등 완료해야 할 작업 목록을 포함한다.",
+    "file": "일정.md",
+    "summary": "이 문서는 '일정' 관리를 위한 허브 문서입니다. '홈' 문서의 하위이며, '스케줄 관리', '중요 날짜', '반복 일정'이라는 하위 문서를 포함합니다. 운영 원칙으로 일정을 먼저 중요 날짜와 반복 일정에 기록하고, 자동 브리핑 및 일정 처리 방식은 스케줄 관리에서 관리한다고 명시합니다.",
     "keywords": [
-      "입대",
-      "군 입대",
-      "입영판정검사",
-      "입대 준비",
-      "계획",
-      "개인 자료 정리",
-      "자산 관리",
-      "학업 마무리"
+      "일정",
+      "스케줄 관리",
+      "중요 날짜",
+      "반복 일정",
+      "운영 원칙",
+      "허브"
     ],
     "tags": [
-      "military",
-      "timeline",
-      "입대",
-      "개인",
-      "계획",
-      "준비"
+      "schedule",
+      "hub"
     ],
     "related_topics": [
-      "개인",
-      "군 생활",
-      "재정 관리",
-      "학업 계획",
-      "인생 이벤트"
+      "홈",
+      "스케줄 관리",
+      "중요 날짜",
+      "반복 일정"
     ]
-  },
-  {
-    "file": "개인/일상 기록/2026-06-06.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "개인/일상 기록/2026-06-05.md",
-    "summary": "2026년 6월 5일의 일상 기록으로, 굽네 바사삭 치킨 식사, 미분방정식 쪽지시험 (헤비사이드 스텝 함수 및 라플라스 변환 공식 미흡), 중1 수학 과외 (삼각형의 합동 조건까지 진행), 그리고 유튜버 '근가놈'의 독타입챌린지 시청 등의 활동이 포함됩니다.",
-    "keywords": [
-      "굽네 바사삭 치킨",
-      "미분방정식",
-      "쪽지시험",
-      "헤비사이드 스텝 함수",
-      "라플라스 변환",
-      "수학 과외",
-      "중1 수학",
-      "삼각형의 합동 조건",
-      "근가놈",
-      "독타입챌린지"
-    ],
-    "tags": [
-      "personal",
-      "daily-log",
-      "학업",
-      "식사",
-      "일",
-      "취미"
-    ],
-    "related_topics": [
-      "일상 기록",
-      "대학교 학업",
-      "미분방정식 학습",
-      "수학 교육",
-      "치킨 요리/음식",
-      "유튜브 시청"
-    ]
-  },
-  {
-    "file": "자동화/세컨드브레인자동화 설정.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "학업/시간표.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "학업/2026년 1학기.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "학업/대학교.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "학업/시험 일정.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "학업/복기/2026-06-05 미분방정식 쪽지시험 복기.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "학업/과목/해석개론.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "학업/과목/선형대수.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "학업/과목/벡터해석.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "학업/과목/미분방정식.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "학업/과목/기하학.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
   },
   {
     "file": "일정/2026_06_06_일정.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "일정/중요 날짜.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
@@ -588,42 +495,243 @@
     ]
   },
   {
-    "file": "취미/게임.md",
+    "file": "일정/중요 날짜.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 3학년 커리큘럼.md",
+    "file": "자동화/세컨드브레인자동화 설정.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 커리큘럼 총정리.md",
+    "file": "자료/유튜브 요약/2026-06-05 Vibe Coding과 Base44를 활용한 앱 개발 초보자 가이드.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 4학년 커리큘럼.md",
+    "file": "자료/유튜브 요약/2026-06-05 비만 치료제 가격 폭락과 한국 시장의 규제 및 가격 문제.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 4학년 이후 학파.md",
+    "file": "자료/유튜브 요약/2026-06-06 AI 에이전트의 효율성을 극대화하는 하네스 엔지니어링.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미.md",
+    "file": "자료/유튜브 요약/2026-06-06 Claude Code를 활용한 AI 자동화 시스템 구축 및 반복 업무 효율화 가이드.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자료/유튜브 요약/2026-06-06 리처드 데니스 거북이 트레이딩 300만원으로 5천억을 만든 4가지 원칙과 실전 매매 기법.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자료/유튜브 요약/2026-06-06 발라트로 조커 블루프린트와 브레인스톰 비교.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자료/유튜브 요약/2026-06-06 클로드 코워크로 AI 에이전트 팀을 만들어 주식 분석 자동화하기.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자료와 참고.md",
+    "summary": "외부 자료, 요약 결과, 참고 이미지 등을 관리하기 위한 허브 문서입니다. 자료 관리 운영 원칙과 하위 문서 목록을 포함합니다.",
+    "keywords": [
+      "자료 관리",
+      "참고 자료",
+      "외부 자료",
+      "요약",
+      "운영 원칙",
+      "허브"
+    ],
+    "tags": [
+      "참고 자료",
+      "아카이브",
+      "허브"
+    ],
+    "related_topics": [
+      "홈",
+      "유튜브 요약",
+      "지식 관리",
+      "세컨드 브레인"
+    ]
+  },
+  {
+    "file": "자산과 일.md",
+    "summary": "자산과 일 허브 문서는 개인의 자산, 재정 관리 및 수입 활동을 통합적으로 관리하기 위한 상위 문서입니다. 주식 포트폴리오, 정기 구독, 특정 금융 상품(청년미래적금), 수입원(수학 과외) 등 다양한 하위 문서를 포함하며, 금융 관련 정보 접근 및 수입/지출 관리에 대한 운영 원칙을 제시합니다.",
+    "keywords": [
+      "자산 관리",
+      "금융",
+      "투자",
+      "재정",
+      "수입",
+      "지출",
+      "포트폴리오",
+      "구독",
+      "저축"
+    ],
+    "tags": [
+      "finance",
+      "work",
+      "hub"
+    ],
+    "related_topics": [
+      "개인 재정 관리",
+      "투자 전략",
+      "예산 관리",
+      "재테크",
+      "소비 관리"
+    ]
+  },
+  {
+    "file": "자산과 일/수학 과외.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자산과 일/자산.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자산과 일/정기 구독.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자산과 일/종목/SK하이닉스.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자산과 일/종목/반도체 섹터.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자산과 일/종목/삼성전자.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자산과 일/종목/아메리칸 익스프레스.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자산과 일/종목/엔비디아.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자산과 일/종목/인텔.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자산과 일/종목/패브리넷.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자산과 일/주식 뉴스 브리핑.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자산과 일/주식 포트폴리오.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "자산과 일/청년미래적금.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "참고자료/마법학_아카데미_세계관_설정_정리.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "취미.md",
+    "summary": "다양한 취미 활동을 관리하기 위한 허브 문서입니다. 게임, 음악, 유튜브, 마법학 아카데미 등의 하위 취미 문서들을 연결하며, 채널, 아티스트, 세부 설정 등은 각 하위 문서에서 접근하도록 하고 홈 문서에서는 취미 세부 문서를 직접 연결하지 않는 운영 원칙을 명시합니다.",
+    "keywords": [
+      "취미",
+      "허브",
+      "하위 문서",
+      "운영 원칙",
+      "게임",
+      "음악",
+      "유튜브",
+      "마법학 아카데미"
+    ],
+    "tags": [
+      "hobby",
+      "hub"
+    ],
+    "related_topics": [
+      "홈",
+      "게임",
+      "음악",
+      "유튜브",
+      "마법학 아카데미"
+    ]
+  },
+  {
+    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 1학년 기초식이론.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
@@ -631,13 +739,6 @@
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 1학년 기초주문이론.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 2학년 식의 최적화이론.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
@@ -658,21 +759,7 @@
     "related_topics": []
   },
   {
-    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 2학년 커리큘럼.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 기본 개념.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 1학년 기초식이론.md",
+    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 2학년 식의 최적화이론.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
@@ -686,6 +773,41 @@
     "related_topics": []
   },
   {
+    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 2학년 커리큘럼.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 3학년 커리큘럼.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 4학년 이후 학파.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 4학년 커리큘럼.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
+    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 기본 개념.md",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
+  },
+  {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 세계관 방향.md",
     "summary": "처리 실패",
     "keywords": [],
@@ -693,103 +815,21 @@
     "related_topics": []
   },
   {
-    "file": "취미/음악/일본 음악.md",
-    "summary": "개인이 선호하는 일본 음악 장르 및 아티스트(아도, 요네즈 켄시, 바운디, 킹누, 오피셜 히게단디즘 등) 목록과 일본 아티스트 내한 공연에 대한 관심사를 정리한 문서입니다.",
-    "keywords": [
-      "일본 음악",
-      "J-POP",
-      "선호 아티스트",
-      "아도",
-      "요네즈 켄시",
-      "바운디",
-      "킹누",
-      "오피셜 히게단디즘",
-      "내한 공연"
-    ],
-    "tags": [
-      "music",
-      "japanese-music",
-      "genre",
-      "J-POP"
-    ],
-    "related_topics": [
-      "음악",
-      "아티스트",
-      "공연 정보"
-    ]
-  },
-  {
-    "file": "취미/음악/음악.md",
+    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 커리큘럼 총정리.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "취미/음악/스포티파이.md",
+    "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "취미/음악/공연 정보.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "취미/음악/아티스트/킹누.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "취미/음악/아티스트/장기하.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "취미/음악/아티스트/바운디.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "취미/음악/아티스트/오피셜 히게단디즘.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "취미/음악/아티스트/아도.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "취미/음악/아티스트/카디.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "취미/음악/아티스트/한로로.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "취미/음악/아티스트/요네즈 켄시.md",
+    "file": "취미/게임.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
@@ -828,7 +868,7 @@
     ]
   },
   {
-    "file": "취미/유튜브/채널/윤가놈.md",
+    "file": "취미/유튜브/채널/근가놈.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
@@ -842,20 +882,6 @@
     "related_topics": []
   },
   {
-    "file": "취미/유튜브/채널/슈카월드.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "취미/유튜브/채널/근가놈.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
     "file": "취미/유튜브/채널/발젭.md",
     "summary": "처리 실패",
     "keywords": [],
@@ -863,241 +889,248 @@
     "related_topics": []
   },
   {
-    "file": "개발/프로젝트.md",
+    "file": "취미/유튜브/채널/슈카월드.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "개발/GitHub.md",
+    "file": "취미/유튜브/채널/윤가놈.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "개발/프로젝트/YouTube Gemini Summarizer.md",
+    "file": "취미/음악/공연 정보.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "개발/프로젝트/General Gemini Link Summarizer.md",
+    "file": "취미/음악/스포티파이.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "개발/프로젝트/ATLAS.md",
+    "file": "취미/음악/아티스트/바운디.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자료/유튜브 요약/2026-06-06 AI 에이전트의 효율성을 극대화하는 하네스 엔지니어링.md",
+    "file": "취미/음악/아티스트/아도.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자료/유튜브 요약/2026-06-06 발라트로 조커 블루프린트와 브레인스톰 비교.md",
+    "file": "취미/음악/아티스트/오피셜 히게단디즘.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자료/유튜브 요약/2026-06-05 Vibe Coding과 Base44를 활용한 앱 개발 초보자 가이드.md",
+    "file": "취미/음악/아티스트/요네즈 켄시.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자료/유튜브 요약/2026-06-06 클로드 코워크로 AI 에이전트 팀을 만들어 주식 분석 자동화하기.md",
+    "file": "취미/음악/아티스트/장기하.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자료/유튜브 요약/2026-06-05 비만 치료제 가격 폭락과 한국 시장의 규제 및 가격 문제.md",
+    "file": "취미/음악/아티스트/카디.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자료/유튜브 요약/2026-06-06 Claude Code를 활용한 AI 자동화 시스템 구축 및 반복 업무 효율화 가이드.md",
+    "file": "취미/음악/아티스트/킹누.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자료/유튜브 요약/2026-06-06 리처드 데니스 거북이 트레이딩 300만원으로 5천억을 만든 4가지 원칙과 실전 매매 기법.md",
+    "file": "취미/음악/아티스트/한로로.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "참고자료/마법학_아카데미_세계관_설정_정리.md",
+    "file": "취미/음악/음악.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자산과 일/청년미래적금.md",
+    "file": "취미/음악/일본 음악.md",
+    "summary": "개인이 선호하는 일본 음악 장르 및 아티스트(아도, 요네즈 켄시, 바운디, 킹누, 오피셜 히게단디즘 등) 목록과 일본 아티스트 내한 공연에 대한 관심사를 정리한 문서입니다.",
+    "keywords": [
+      "일본 음악",
+      "J-POP",
+      "선호 아티스트",
+      "아도",
+      "요네즈 켄시",
+      "바운디",
+      "킹누",
+      "오피셜 히게단디즘",
+      "내한 공연"
+    ],
+    "tags": [
+      "music",
+      "japanese-music",
+      "genre",
+      "J-POP"
+    ],
+    "related_topics": [
+      "음악",
+      "아티스트",
+      "공연 정보"
+    ]
+  },
+  {
+    "file": "학업.md",
+    "summary": "학업 관련 정보들을 통합 관리하는 허브 문서. 대학교, 학기별 세부 내용, 시간표, 시험 일정을 하위 문서로 포함하며, 과목별 정보 및 모든 학업 관련 활동을 학업 영역 내에서 연결하는 운영 원칙을 명시합니다.",
+    "keywords": [
+      "학업",
+      "대학교",
+      "학기",
+      "시간표",
+      "시험",
+      "학습 관리",
+      "허브"
+    ],
+    "tags": [
+      "study",
+      "university",
+      "hub"
+    ],
+    "related_topics": [
+      "홈",
+      "대학교",
+      "2026년 1학기",
+      "시간표",
+      "시험 일정",
+      "복기"
+    ]
+  },
+  {
+    "file": "학업/2026년 1학기.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자산과 일/주식 뉴스 브리핑.md",
+    "file": "학업/과목/기하학.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자산과 일/자산.md",
+    "file": "학업/과목/미분방정식.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자산과 일/정기 구독.md",
+    "file": "학업/과목/벡터해석.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자산과 일/주식 포트폴리오.md",
+    "file": "학업/과목/선형대수.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자산과 일/수학 과외.md",
+    "file": "학업/과목/해석개론.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자산과 일/종목/패브리넷.md",
+    "file": "학업/대학교.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자산과 일/종목/SK하이닉스.md",
+    "file": "학업/복기/2026-06-05 미분방정식 쪽지시험 복기.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자산과 일/종목/인텔.md",
+    "file": "학업/시간표.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자산과 일/종목/반도체 섹터.md",
+    "file": "학업/시험 일정.md",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
-    "file": "자산과 일/종목/아메리칸 익스프레스.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "자산과 일/종목/삼성전자.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "자산과 일/종목/엔비디아.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "AI/제미나이.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "AI/GPT.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "AI/AI 미디어 생성.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "AI/Grok.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "AI/코덱스.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "AI/AI 에이전트.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "AI/AI 정보 추적.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
-  },
-  {
-    "file": "AI/클로드.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "file": "홈.md",
+    "summary": "세컨드 브레인의 최상위 인덱스 문서로, 개인, 일정, 학업, 자산, AI, 개발, 취미 등 주요 분류 체계를 제시합니다. 현재 입대 전 개인 정보, 관심사, 자산 상태, AI 활용 흐름 정리, 기말고사 준비, 청년미래적금 가입 등의 단기 목표에 집중하고 있음을 명시합니다. 이 문서는 최상위 허브 역할을 하며, 세부 내용은 각 허브 문서에서 관리될 예정입니다.",
+    "keywords": [
+      "세컨드 브레인",
+      "인덱스",
+      "분류",
+      "계획",
+      "정리",
+      "입대",
+      "학업",
+      "자산",
+      "AI",
+      "목표"
+    ],
+    "tags": [
+      "second-brain",
+      "인덱스",
+      "계획",
+      "학업",
+      "금융",
+      "개인"
+    ],
+    "related_topics": [
+      "개인 정보 관리",
+      "학업 계획",
+      "자산 관리",
+      "군 입대 준비",
+      "AI 활용 전략",
+      "생산성 시스템"
+    ]
   }
 ]
