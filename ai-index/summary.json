@@ -35,10 +35,29 @@
   {
     "file": "AI/AI 미디어 생성.md",
     "hash": "92b72524226bd901aac93a2d25f5562cc0234dd51f88ce2dc6d58196b43fe144",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "summary": "AI 미디어 생성에 대한 주제를 다루며, GPT와 Grok의 이미지 및 비디오 생성 기능 업데이트에 주목하고 있다. 주요 추적 항목으로는 이미지/비디오 품질, 텍스트 렌더링, 캐릭터/스타일 일관성, 편집 기능, 가격 및 사용 제한 등이 포함된다.",
+    "keywords": [
+      "AI 미디어 생성",
+      "GPT",
+      "Grok",
+      "이미지 생성",
+      "비디오 생성",
+      "생성형 AI",
+      "미디어 품질",
+      "콘텐츠 일관성"
+    ],
+    "tags": [
+      "ai",
+      "image-generation",
+      "video-generation",
+      "generative-ai"
+    ],
+    "related_topics": [
+      "AI",
+      "LLM",
+      "콘텐츠 생성",
+      "디지털 미디어"
+    ]
   },
   {
     "file": "AI/AI 에이전트.md",
@@ -87,10 +106,26 @@
   },
   {
     "file": "AI/Grok.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "216ab6054c70c2c55aa383e56d09b49b6fad35850208feab3a653094fa6d1732",
+    "summary": "Grok은 현재 주시하고 있는 AI 도구로, 특히 이미지 및 비디오 생성 기능 업데이트에 관심이 많다. 향후 이미지/비디오 생성 품질, 사용 가능 여부, 가격, GPT와의 비교 등 상세 정보를 채울 예정이다.",
+    "keywords": [
+      "Grok",
+      "AI 도구",
+      "이미지 생성",
+      "비디오 생성",
+      "생성형 AI",
+      "GPT 비교"
+    ],
+    "tags": [
+      "ai",
+      "tool",
+      "image-generation",
+      "video-generation"
+    ],
+    "related_topics": [
+      "AI",
+      "GPT 이미지 생성"
+    ]
   },
   {
     "file": "AI/제미나이.md",
