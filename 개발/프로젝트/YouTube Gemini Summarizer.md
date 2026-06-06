@@ -11,10 +11,12 @@ tags:
 
 # YouTube Gemini Summarizer
 
+상위 문서: [[프로젝트]]
+
 ## 개요
 
 - Obsidian 커뮤니티 플러그인 형태로 만든 로컬 vault 커스터마이징.
-- YouTube 링크를 [[제미나이|Gemini API]]로 요약하고 Markdown 노트로 저장한다.
+- YouTube 링크를 Gemini API로 요약하고 Markdown 노트로 저장한다.
 - 플러그인 위치: `.obsidian/plugins/youtube-gemini-summarizer`
 
 ## 사용 방법
@@ -40,6 +42,7 @@ https://www.youtube.com/watch?v=...
 
 - 기본 저장 폴더: `자료/유튜브 요약`
 - 생성 노트는 원본 URL, 출처 노트, Gemini 요약을 포함한다.
+- 요약 노트 파일명은 Gemini가 만든 `문서 제목:` 값을 사용해 영상 주제 중심으로 만든다.
 
 ## 한계
 

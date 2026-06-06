@@ -14,3 +14,21 @@
   color: var(--text-muted);
   word-break: break-all;
 }
+
+.markdown-preview-view.youtube-readable-summary {
+  line-height: 1.7;
+}
+
+.markdown-preview-view.youtube-readable-summary h2 {
+  border-bottom: 1px solid var(--background-modifier-border);
+  margin-top: 1.8em;
+  padding-bottom: 0.25em;
+}
+
+.markdown-preview-view.youtube-readable-summary li {
+  margin: 0.35em 0;
+}
+
+.markdown-preview-view.youtube-readable-summary table {
+  font-size: 0.95em;
+}

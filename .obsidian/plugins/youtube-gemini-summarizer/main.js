@@ -16,17 +16,39 @@ const DEFAULT_SETTINGS = {
   outputFolder: "자료/유튜브 요약",
   summaryLanguage: "ko",
   appendLinkToSource: true,
+  promptVersion: 2,
   prompt: [
-    "이 YouTube 영상을 한국어로 정리해줘.",
+    "이 YouTube 영상을 한국어 Obsidian 노트로 정리해줘.",
     "",
-    "형식:",
-    "1. 한 문단 핵심 요약",
-    "2. 중요한 내용 5-10개",
-    "3. 영상에서 언급된 도구, 인물, 작품, 회사, 개념",
-    "4. 나중에 다시 볼 만한 포인트",
-    "5. Obsidian에 남길 태그 3-7개",
+    "목표:",
+    "- 나중에 빠르게 다시 읽을 수 있게 글자 밀도를 낮춰줘.",
+    "- 긴 문단보다 짧은 문장, 목록, 표를 우선해줘.",
+    "- 영어 자료는 자연스러운 한국어로 번역해줘.",
     "",
-    "가능하면 중요한 장면이나 주제에 타임스탬프를 붙여줘.",
+    "출력 규칙:",
+    "- 첫 줄은 반드시 `문서 제목: 영상 내용을 한 문장으로 정리한 짧은 주제` 형식으로 써줘.",
+    "- 그 다음 줄부터는 아래 Markdown 구조만 사용해줘.",
+    "- 한 문단은 최대 3문장으로 제한해줘.",
+    "- 목록 항목은 한 항목당 1-2줄로 제한해줘.",
+    "- 중요한 장면이나 주제는 가능한 경우 `[00:00]` 형식의 타임스탬프를 붙여줘.",
+    "",
+    "## 한눈에 보기",
+    "> [!summary] 핵심 요약",
+    "> 3줄 이하로 영상의 결론과 쓸모를 정리해줘.",
+    "",
+    "## 핵심 포인트",
+    "- 중요한 내용 5-8개",
+    "",
+    "## 다시 볼 포인트",
+    "- 나중에 확인할 부분 3-5개",
+    "",
+    "## 언급된 것",
+    "| 유형 | 이름 | 메모 |",
+    "|---|---|---|",
+    "| 도구/인물/회사/개념 | 이름 | 왜 언급됐는지 짧게 |",
+    "",
+    "## 태그",
+    "#태그 3-7개",
   ].join("\n"),
 };
 
@@ -34,7 +56,13 @@ const YOUTUBE_URL_PATTERN = /https?:\/\/(?:www\.)?(?:youtube\.com\/(?:watch\?[^)
 
 module.exports = class YouTubeGeminiSummarizerPlugin extends Plugin {
   async onload() {
-    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+    const savedSettings = await this.loadData();
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, savedSettings);
+    if (!savedSettings?.promptVersion || savedSettings.promptVersion < DEFAULT_SETTINGS.promptVersion) {
+      this.settings.prompt = DEFAULT_SETTINGS.prompt;
+      this.settings.promptVersion = DEFAULT_SETTINGS.promptVersion;
+      await this.saveSettings();
+    }
 
     this.addSettingTab(new YouTubeGeminiSettingTab(this.app, this));
 
@@ -274,33 +302,93 @@ module.exports = class YouTubeGeminiSummarizerPlugin extends Plugin {
 
     const now = new Date();
     const dateText = this.formatDate(now);
-    const title = await this.makeUniqueFilePath(folder, `${dateText} YouTube 요약 ${this.extractVideoId(url) || "video"}.md`);
+    const summaryTitle = this.extractSummaryTitle(summary);
+    const fallbackTitle = `YouTube 요약 ${this.extractVideoId(url) || "video"}`;
+    const noteTitle = summaryTitle || fallbackTitle;
+    const readableSummary = this.removeSummaryTitleLine(summary);
+    const title = await this.makeUniqueFilePath(folder, `${dateText} ${this.safeFilePart(noteTitle)}.md`);
     const sourceLine = sourceFile ? `source_note: "[[${sourceFile.basename}]]"` : "source_note: null";
+    const sourceInfo = [
+      `> - 원본: ${url}`,
+      sourceFile ? `> - 출처 노트: [[${sourceFile.basename}]]` : "",
+      "> - 생성 도구: [[제미나이]]",
+    ];
     const content = [
       "---",
       "type: youtube-summary",
       `created: ${dateText}`,
       `source_url: "${url.replace(/"/g, '\\"')}"`,
+      `summary_title: "${this.escapeYaml(noteTitle)}"`,
       sourceLine,
+      "cssclasses:",
+      "  - youtube-readable-summary",
       "tags:",
       "  - youtube",
       "  - gemini",
       "  - summary",
       "---",
       "",
-      `# YouTube 요약 - ${this.extractVideoId(url) || dateText}`,
+      `# ${noteTitle}`,
       "",
-      `- 원본: ${url}`,
-      sourceFile ? `- 출처 노트: [[${sourceFile.basename}]]` : "",
-      "- 생성 도구: [[제미나이]]",
+      "> [!info] 원본 정보",
+      ...sourceInfo,
       "",
-      "## 요약",
-      "",
-      summary,
+      readableSummary,
       "",
     ].filter((line) => line !== "").join("\n");
 
     return await this.app.vault.create(title, content);
+  }
+
+  extractSummaryTitle(summary) {
+    const firstLine = String(summary || "")
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .find(Boolean);
+    if (!firstLine) return "";
+
+    const normalizedLine = firstLine
+      .replace(/^#{1,6}\s*/, "")
+      .replace(/^`+|`+$/g, "")
+      .replace(/\*\*/g, "")
+      .trim();
+    const match = normalizedLine.match(/^(?:문서\s*제목|제목)\s*[:：]\s*(.+)$/i);
+    if (!match) return "";
+
+    return match[1]
+      .replace(/^["'“”‘’]+|["'“”‘’]+$/g, "")
+      .trim();
+  }
+
+  removeSummaryTitleLine(summary) {
+    const lines = String(summary || "").split(/\r?\n/);
+    const firstContentIndex = lines.findIndex((line) => line.trim());
+    if (firstContentIndex === -1) return "";
+
+    const normalizedLine = lines[firstContentIndex]
+      .trim()
+      .replace(/^#{1,6}\s*/, "")
+      .replace(/^`+|`+$/g, "")
+      .replace(/\*\*/g, "")
+      .trim();
+
+    if (/^(?:문서\s*제목|제목)\s*[:：]\s*/i.test(normalizedLine)) {
+      lines.splice(firstContentIndex, 1);
+    }
+
+    return lines.join("\n").trim();
+  }
+
+  safeFilePart(value) {
+    const cleaned = String(value || "video")
+      .replace(/[\\/:*?"<>|#^[\]]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+    return (cleaned || "video").slice(0, 80);
+  }
+
+  escapeYaml(value) {
+    return String(value || "").replace(/\\/g, "\\\\").replace(/"/g, '\\"');
   }
 
   async appendSummaryLink(sourceFile, outputFile, url) {
