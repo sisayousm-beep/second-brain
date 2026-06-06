@@ -2,10 +2,18 @@ name: Update Second Brain
 
 on:
   push:
+    paths-ignore:
+      - "ai-index/**"
+  schedule:
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-second-brain
+  cancel-in-progress: false
 
 jobs:
   update-brain:
@@ -14,6 +22,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,5 +43,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add ai-index/
-          git commit -m "update ai index" || echo "No changes"
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "update ai index"
+          git pull --rebase origin main
           git push
