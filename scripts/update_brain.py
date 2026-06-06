@@ -1,18 +1,80 @@
+import os
+import json
 from pathlib import Path
+from google import genai
 
-EXTENSIONS = {".md", ".txt"}
+ROOT = Path(".")
+OUTPUT_DIR = Path("ai-index")
+OUTPUT_DIR.mkdir(exist_ok=True)
 
-files = []
+client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
-for path in Path(".").rglob("*"):
-    if path.is_file() and path.suffix.lower() in EXTENSIONS:
-        files.append(path)
+TARGET_EXTENSIONS = {".md", ".txt"}
+EXCLUDE_DIRS = {".git", ".github", "scripts", "ai-index", ".obsidian"}
 
-print(f"Found {len(files)} documents")
+def should_skip(path: Path) -> bool:
+    return any(part in EXCLUDE_DIRS for part in path.parts)
 
-for file in sorted(files):
+def clean_json(raw: str) -> str:
+    raw = raw.strip()
+    raw = raw.removeprefix("```json").removeprefix("```")
+    raw = raw.removesuffix("```")
+    return raw.strip()
+
+def summarize_file(path: Path) -> dict:
+    text = path.read_text(encoding="utf-8", errors="ignore")
+
+    prompt = f"""
+다음 문서를 세컨드 브레인용으로 정리해줘.
+
+반드시 JSON만 출력해.
+
+형식:
+{{
+  "file": "{str(path)}",
+  "summary": "문서 요약",
+  "keywords": ["키워드1", "키워드2"],
+  "tags": ["태그1", "태그2"],
+  "related_topics": ["관련 주제1", "관련 주제2"]
+}}
+
+문서 내용:
+{text[:12000]}
+"""
+
+    response = client.models.generate_content(
+        model="gemini-2.5-flash",
+        contents=prompt,
+    )
+
+    raw = clean_json(response.text)
+
     try:
-        content = file.read_text(encoding="utf-8")
-        print(f"{file}: {len(content)} chars")
-    except Exception as e:
-        print(f"{file}: ERROR {e}")
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        return {
+            "file": str(path),
+            "summary": raw,
+            "keywords": [],
+            "tags": [],
+            "related_topics": [],
+        }
+
+def main():
+    results = []
+
+    for path in ROOT.rglob("*"):
+        if path.is_file() and path.suffix.lower() in TARGET_EXTENSIONS and not should_skip(path):
+            print(f"Processing: {path}")
+            results.append(summarize_file(path))
+
+    output_path = OUTPUT_DIR / "summary.json"
+    output_path.write_text(
+        json.dumps(results, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    print(f"Saved: {output_path}")
+
+if __name__ == "__main__":
+    main()

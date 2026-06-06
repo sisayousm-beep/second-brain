@@ -4,16 +4,34 @@ on:
   push:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  scan:
+  update-brain:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Scan documents
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Gemini updater
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/update_brain.py
+
+      - name: Commit AI updates
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add ai-index/
+          git commit -m "update ai index" || echo "No changes"
+          git push
