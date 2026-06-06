@@ -299,10 +299,29 @@
   {
     "file": "requirements.txt",
     "hash": "d405c3d51576d811c8de1dac1ea30dfd9f4f0f1a5721d11112b926078e616db2",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "summary": "Google의 생성형 AI(Generative AI) 모델 및 서비스에 접근하고 활용하기 위한 라이브러리 또는 패키지 이름입니다. 일반적으로 Gemini와 같은 모델과의 상호작용을 지원합니다.",
+    "keywords": [
+      "Google GenAI",
+      "생성형 AI",
+      "Gemini API",
+      "AI 모델",
+      "LLM",
+      "라이브러리"
+    ],
+    "tags": [
+      "AI",
+      "Generative AI",
+      "Google Cloud",
+      "개발",
+      "기술"
+    ],
+    "related_topics": [
+      "Gemini API",
+      "Large Language Models (LLM)",
+      "Machine Learning",
+      "AI 개발",
+      "Google Cloud Platform"
+    ]
   },
   {
     "file": "개발.md",
@@ -329,6 +348,7 @@
   },
   {
     "file": "개발/GitHub.md",
+    "hash": "f0b2ba0cf124c63914f45196f9301703bddebc692c1ffe3f21073e9bdca0769e",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
@@ -343,17 +363,58 @@
   },
   {
     "file": "개발/프로젝트/ATLAS.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "1738e049af67c05a80e19163da48416573a0bd8af90d9cb6ad908fef7215c66c",
+    "summary": "ATLAS는 경제와 문명 시뮬레이션을 결합한 게임 프로젝트입니다. 플레이어는 국가나 기업을 성장시키는 것을 목표로 하며, 자원, 경제 구조, 정치적 선택, 성장 전략을 통해 세력을 키우는 재미를 추구합니다. 기술 구현은 어느 정도 완료되었으며, 현재는 화면 구성, UI, 시각적 정체성, 정보 표현 등 비주얼 작업에 중점을 두고 있습니다.",
+    "keywords": [
+      "ATLAS",
+      "게임 프로젝트",
+      "경제 시뮬레이션",
+      "문명 시뮬레이션",
+      "국가 성장",
+      "기업 성장",
+      "비주얼 작업",
+      "UI/UX",
+      "개발"
+    ],
+    "tags": [
+      "development",
+      "project",
+      "ai"
+    ],
+    "related_topics": [
+      "프로젝트",
+      "경제 게임",
+      "전략 시뮬레이션",
+      "UI 디자인",
+      "게임 개발"
+    ]
   },
   {
     "file": "개발/프로젝트/General Gemini Link Summarizer.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "2538527eae688362da64a4e8d82d98dcbbb879449e4cb69847b66a8ab240d9d7",
+    "summary": "General Gemini Link Summarizer는 Obsidian 커뮤니티 플러그인으로, 일반 웹 링크(YouTube 제외)를 Gemini API를 활용하여 한국어 요약 노트를 생성합니다. 현재 노트 내 링크, 선택 영역 링크, 또는 직접 입력한 링크를 요약할 수 있으며, 결과는 '자료/링크 요약' 폴더에 원본 정보와 Gemini 요약을 포함한 새 노트로 저장됩니다. 원본 노트에는 요약 노트로의 링크가 추가됩니다. 로그인/페이월 또는 JavaScript 렌더링이 필요한 페이지, PDF/이미지/YouTube는 지원되지 않으며, API 키는 로컬에 저장됩니다.",
+    "keywords": [
+      "Obsidian",
+      "Gemini API",
+      "웹 링크 요약",
+      "플러그인",
+      "한국어 요약",
+      "링크 관리"
+    ],
+    "tags": [
+      "개발",
+      "obsidian",
+      "플러그인",
+      "링크",
+      "gemini"
+    ],
+    "related_topics": [
+      "Obsidian 활용",
+      "AI 요약 도구",
+      "지식 관리 시스템",
+      "정보 큐레이션",
+      "생산성"
+    ]
   },
   {
     "file": "개발/프로젝트/YouTube Gemini Summarizer.md",
