@@ -11,10 +11,28 @@
             "id": "c2a39f9dbaeacf9f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "자료/유튜브 요약/2026-06-06 Claude Code를 활용한 AI 자동화 시스템 구축 및 반복 업무 효율화 가이드.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-06-06 Claude Code를 활용한 AI 자동화 시스템 구축 및 반복 업무 효율화 가이드"
+            }
+          },
+          {
+            "id": "450b5d682c308cf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "홈.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "홈"
             }
           }
         ]
@@ -178,27 +196,30 @@
   },
   "active": "c2a39f9dbaeacf9f",
   "lastOpenFiles": [
+    "자료/유튜브 요약/2026-06-06 Claude Code를 활용한 AI 자동화 시스템 구축 및 반복 업무 효율화 가이드.md",
+    "유튜브 요약.md",
+    "홈.md",
+    "학업.md",
+    "취미.md",
+    "자산과 일.md",
+    "자료와 참고.md",
+    "일정.md",
+    "무제 1.canvas",
+    "무제.canvas",
+    "AI.md",
+    "AGENTS.md",
+    "requirements.txt",
     "scripts/update_brain.py",
     "scripts/새 텍스트 문서.txt",
     "scripts",
     "scr",
     "새 폴더",
-    "무제 1.canvas",
-    "홈.md",
-    "자료와 참고.md",
-    "취미.md",
     "개발.md",
-    "AI.md",
-    "자산과 일.md",
-    "학업.md",
-    "일정.md",
     "개인.md",
-    "무제.canvas",
     "자료/유튜브 요약/2026-06-06 AI 에이전트의 효율성을 극대화하는 하네스 엔지니어링.md",
     "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 2학년 주문 체계의 정의와 종류.md",
     "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 2학년 식의 기저와 차원.md",
     "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 2학년 식의 최적화이론.md",
-    "유튜브 요약.md",
     "자료/유튜브 요약/2026-06-06 발라트로 조커 블루프린트와 브레인스톰 비교.md",
     "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 1학년 기초주문이론.md",
     "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 1학년 기초식이론.md",
@@ -209,14 +230,11 @@
     "자료/유튜브 요약/2026-06-06 클로드 코워크로 AI 에이전트 팀을 만들어 주식 분석 자동화하기.md",
     "일정/중요 날짜.md",
     "일정/스케줄 관리.md",
-    "일정/반복 일정.md",
     "일정/약속",
     "학업/복기",
     "개인/일상 기록",
     "취미/AI 롤플레잉 챗봇",
     "참고자료/대학 시간표.png",
-    "참고자료/주식 포트폴리오.png",
-    "second brain",
-    "자료/유튜브 요약"
+    "참고자료/주식 포트폴리오.png"
   ]
 }

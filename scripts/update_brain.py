@@ -1,5 +1,6 @@
 import os
 import json
+import time
 from pathlib import Path
 from google import genai
 
@@ -42,23 +43,37 @@ def summarize_file(path: Path) -> dict:
 {text[:12000]}
 """
 
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt,
-    )
+    for attempt in range(3):
+        try:
+            response = client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=prompt,
+            )
 
-    raw = clean_json(response.text)
+            raw = clean_json(response.text)
 
-    try:
-        return json.loads(raw)
-    except json.JSONDecodeError:
-        return {
-            "file": str(path),
-            "summary": raw,
-            "keywords": [],
-            "tags": [],
-            "related_topics": [],
-        }
+            try:
+                return json.loads(raw)
+            except json.JSONDecodeError:
+                return {
+                    "file": str(path),
+                    "summary": raw,
+                    "keywords": [],
+                    "tags": [],
+                    "related_topics": [],
+                }
+
+        except Exception as e:
+            print(f"Error processing {path}: {e}")
+            time.sleep(15)
+
+    return {
+        "file": str(path),
+        "summary": "처리 실패",
+        "keywords": [],
+        "tags": [],
+        "related_topics": [],
+    }
 
 def main():
     results = []
@@ -67,6 +82,7 @@ def main():
         if path.is_file() and path.suffix.lower() in TARGET_EXTENSIONS and not should_skip(path):
             print(f"Processing: {path}")
             results.append(summarize_file(path))
+            time.sleep(12)
 
     output_path = OUTPUT_DIR / "summary.json"
     output_path.write_text(
