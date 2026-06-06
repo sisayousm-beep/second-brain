@@ -35,15 +35,14 @@
   },
   {
     "file": "AI.md",
-    "summary": "AI 관련 주제들을 종합적으로 관리하는 허브 문서입니다. 주요 하위 문서로 AI 정보 추적, AI 에이전트, AI 미디어 생성, 그리고 Claude, Codex, GPT, Gemini, Grok 등의 AI 도구 문서를 포함합니다. 최신 AI 정보 추적과 도구별 평가를 위한 운영 원칙을 명시합니다.",
+    "hash": "ace60b4fbbd7ec1601f299ec19c844e1cc6bf54411203d8429b9182b04bf085c",
+    "summary": "AI 관련 정보 관리를 위한 허브 문서입니다. 다양한 AI 하위 문서 목록(AI 정보 추적, AI 에이전트, AI 미디어 생성, 클로드, 코덱스, GPT, 제미나이, Grok 등)과 정보 추적 및 도구별 평가에 대한 운영 원칙을 명시하고 있습니다.",
     "keywords": [
       "AI",
       "인공지능",
-      "허브 문서",
-      "AI 도구",
+      "허브",
       "정보 관리",
-      "운영 원칙",
-      "LLM"
+      "운영 원칙"
     ],
     "tags": [
       "ai",
@@ -54,8 +53,11 @@
       "AI 정보 추적",
       "AI 에이전트",
       "AI 미디어 생성",
-      "대규모 언어 모델",
-      "AI 도구 평가"
+      "클로드",
+      "코덱스",
+      "GPT",
+      "제미나이",
+      "Grok"
     ]
   },
   {
@@ -117,10 +119,38 @@
   {
     "file": "AI/AI 정보 추적.md",
     "hash": "40c6f0c21587ad571d501eab91129f358f3c73aef40b795bf08806399669dee1",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "summary": "AI 관련 최신 정보, 특히 AI 에이전트 및 개발 도구 추적에 대한 개인적 선호와 구체적인 추적 아이디어(모델 업데이트, 에이전트 기능, 생성 AI, 코딩 워크플로우, 사용 후기, 구독 가치, 장기적 루틴 등)를 정리한 문서.",
+    "keywords": [
+      "AI 정보 추적",
+      "AI 에이전트",
+      "AI 개발 도구",
+      "모델 성능",
+      "생성 AI",
+      "코딩 에이전트",
+      "AI 뉴스",
+      "정보 수집 루틴",
+      "AI 구독"
+    ],
+    "tags": [
+      "ai",
+      "agents",
+      "news",
+      "정보추적",
+      "AI모델",
+      "개발도구",
+      "워크플로우",
+      "생성AI"
+    ],
+    "related_topics": [
+      "AI",
+      "클로드",
+      "GPT",
+      "제미나이",
+      "Grok",
+      "AI 에이전트",
+      "생성형 AI",
+      "AI 동향"
+    ]
   },
   {
     "file": "AI/GPT.md",
@@ -202,13 +232,30 @@
   {
     "file": "AI/코덱스.md",
     "hash": "3e125f615485c6a0385c014650b0cd66e2143ff2151aaaa752c24463b9b8735a",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "summary": "코덱스는 자주 사용하는 최신 AI 코딩 에이전트로, AI 에이전트 및 AI 정보 추적의 핵심 대상입니다. 이 문서에서는 코덱스의 역할과 함께, 프로젝트별 사용 기록, 적합 및 부적합 작업, 프롬프트 패턴, 로컬 개발 환경 설정 등 향후 추적 및 관리할 세부 필드들을 명시하고 있습니다.",
+    "keywords": [
+      "코덱스",
+      "AI 코딩 에이전트",
+      "AI 에이전트",
+      "AI 정보 추적",
+      "프롬프트 패턴",
+      "로컬 개발 환경"
+    ],
+    "tags": [
+      "ai",
+      "coding",
+      "tool"
+    ],
+    "related_topics": [
+      "AI",
+      "AI 에이전트 활용",
+      "프롬프트 엔지니어링",
+      "개발 도구"
+    ]
   },
   {
     "file": "AI/클로드.md",
+    "hash": "a1121ac637a560257ff71c4c3f339495eff88ffc543dd0c59d5b8bf0d949bb2b",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
@@ -251,28 +298,11 @@
   },
   {
     "file": "requirements.txt",
-    "summary": "Google Generative AI Python SDK 라이브러리. Python 애플리케이션에서 Google의 생성형 AI 모델(예: Gemini)을 활용할 수 있게 합니다.",
-    "keywords": [
-      "Google GenAI",
-      "Python SDK",
-      "Generative AI",
-      "Gemini",
-      "AI 모델",
-      "API"
-    ],
-    "tags": [
-      "Python 라이브러리",
-      "인공지능",
-      "개발 도구",
-      "API 클라이언트"
-    ],
-    "related_topics": [
-      "Large Language Models (LLMs)",
-      "Machine Learning",
-      "Google Cloud Platform",
-      "AI 개발",
-      "생성형 AI"
-    ]
+    "hash": "d405c3d51576d811c8de1dac1ea30dfd9f4f0f1a5721d11112b926078e616db2",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
   },
   {
     "file": "개발.md",
