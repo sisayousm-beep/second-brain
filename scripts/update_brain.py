@@ -3,7 +3,7 @@ import json
 import time
 import hashlib
 from pathlib import Path
-from google import genai
+from groq import Groq
 
 ROOT = Path(".")
 OUTPUT_DIR = Path("ai-index")
@@ -11,13 +11,13 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 
 OUTPUT_PATH = OUTPUT_DIR / "summary.json"
 
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+client = Groq(api_key=os.environ["GROQ_API_KEY"])
 
 TARGET_EXTENSIONS = {".md", ".txt"}
 EXCLUDE_DIRS = {".git", ".github", "scripts", "ai-index", ".obsidian"}
 EXCLUDE_FILES = {"requirements.txt", "AGENTS.md", "CLAUDE.md"}
-MAX_FILES_PER_RUN = 3
-SLEEP_SECONDS = 10
+MAX_FILES_PER_RUN = 10
+SLEEP_SECONDS = 4  # 30 RPM 기준 안전 간격
 
 
 def should_skip(path: Path) -> bool:
@@ -56,10 +56,8 @@ def save_results(results: list) -> None:
 
 
 def summarize_file(path: Path, text: str, content_hash: str) -> dict:
-    prompt = f"""
-다음 문서를 세컨드 브레인용으로 정리해줘.
-
-반드시 JSON만 출력해. 다른 텍스트나 마크다운 코드블록 없이 JSON만.
+    prompt = f"""다음 문서를 세컨드 브레인용으로 정리해줘.
+반드시 JSON만 출력해. 마크다운 코드블록이나 다른 텍스트 없이 JSON만.
 
 형식:
 {{
@@ -77,22 +75,24 @@ def summarize_file(path: Path, text: str, content_hash: str) -> dict:
 
     for attempt in range(3):
         try:
-            response = client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=prompt,
+            response = client.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.2,
+                max_tokens=1000,
             )
-
-            raw = clean_json(response.text)
+            raw = clean_json(response.choices[0].message.content)
             data = json.loads(raw)
-
             data["file"] = str(path)
             data["hash"] = content_hash
             return data
 
         except Exception as e:
             print(f"Attempt {attempt + 1} failed for {path}: {e}")
+            # rate limit 오류면 더 길게 대기
+            wait = 60 if "rate_limit" in str(e).lower() else 15
             if attempt < 2:
-                time.sleep(30)
+                time.sleep(wait)
 
     return {
         "file": str(path),
@@ -108,7 +108,6 @@ def main():
     results = load_existing()
     result_map = {item.get("file"): item for item in results if item.get("file")}
 
-    # 처리 실패 문서를 먼저, 그 다음 새 문서 / 수정 문서
     failed = []
     pending = []
 
@@ -129,8 +128,9 @@ def main():
         elif existing.get("summary") == "처리 실패":
             failed.append((path, text, content_hash))
 
+    # 처리 실패 문서 우선
     candidates = failed + pending
-    print(f"Pending: {len(pending)}, Failed: {len(failed)}, Total: {len(candidates)}")
+    print(f"Failed: {len(failed)}, Pending: {len(pending)}, Total: {len(candidates)}")
 
     processed = 0
 
@@ -145,6 +145,7 @@ def main():
     save_results(final_results)
 
     print(f"Processed this run: {processed}")
+    print(f"Remaining: {len(candidates) - processed}")
     print(f"Saved: {OUTPUT_PATH}")
 
 
