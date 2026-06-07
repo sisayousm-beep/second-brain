@@ -1154,25 +1154,21 @@
   },
   {
     "file": "자료와 참고.md",
-    "summary": "외부 자료, 요약 결과, 참고 이미지 등을 관리하기 위한 허브 문서입니다. 자료 관리 운영 원칙과 하위 문서 목록을 포함합니다.",
+    "hash": "475b709810e428f9eca812b4da133d4d0de349dd11a8211a2b1153af66c72047",
+    "summary": "자료와 참고 문서는 외부 자료, 요약 결과, 참고 이미지를 관리하는 문서입니다.",
     "keywords": [
-      "자료 관리",
-      "참고 자료",
-      "외부 자료",
-      "요약",
-      "운영 원칙",
-      "허브"
+      "자료",
+      "참고",
+      "요약"
     ],
     "tags": [
-      "참고 자료",
-      "아카이브",
-      "허브"
+      "references",
+      "archive",
+      "hub"
     ],
     "related_topics": [
       "홈",
-      "유튜브 요약",
-      "지식 관리",
-      "세컨드 브레인"
+      "유튜브 요약"
     ]
   },
   {
@@ -1204,66 +1200,185 @@
   },
   {
     "file": "자산과 일/수학 과외.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "f1e672f672152732afff75ef52ede6365dcba8ac5bb9161f9ae5fd3a932556fe",
+    "summary": "중학교 1학년 수학 과외에 대한 문서 요약",
+    "keywords": [
+      "수학 과외",
+      "중학교 1학년",
+      "입대 전까지"
+    ],
+    "tags": [
+      "work",
+      "tutoring",
+      "income"
+    ],
+    "related_topics": [
+      "교육과정",
+      "수학 교육",
+      "입대 전 수업"
+    ]
   },
   {
     "file": "자산과 일/자산.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "a44e87e5e250f210f01764f3d89376d706cf98bcea80a876d95e45b59a0f3512",
+    "summary": "자산 현황 및 예정, 메모",
+    "keywords": [
+      "자산",
+      "주식",
+      "현금",
+      "증권계좌"
+    ],
+    "tags": [
+      "finance",
+      "assets"
+    ],
+    "related_topics": [
+      "자산 관리",
+      "투자 전략",
+      "재무 계획"
+    ]
   },
   {
     "file": "자산과 일/정기 구독.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "4a30bcf0f83531929668cbf17235eca683849dc0c83545bb3e042f1fb8343a3a",
+    "summary": "정기 구독 서비스에 대한 정보를 정리한 문서",
+    "keywords": [
+      "정기 구독",
+      "클라우드",
+      "GPT",
+      "제미나이",
+      "스포티파이"
+    ],
+    "tags": [
+      "finance",
+      "subscription"
+    ],
+    "related_topics": [
+      "자산 관리",
+      "월정비",
+      "구독 서비스"
+    ]
   },
   {
     "file": "자산과 일/종목/SK하이닉스.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "88d435b67ec65ee66d0ee61ffaed4da7d9ad52b6ed99fbea8f4514c23a52be34",
+    "summary": "SK하이닉스 주식에 대한 정보와 보유 현황",
+    "keywords": [
+      "SK하이닉스",
+      "주식",
+      "반도체"
+    ],
+    "tags": [
+      "finance",
+      "stocks",
+      "semiconductor"
+    ],
+    "related_topics": [
+      "주식 포트폴리오",
+      "반도체 산업"
+    ]
   },
   {
     "file": "자산과 일/종목/반도체 섹터.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "bcc99061af5d5840017be2ae35e454351a30b18c3060ec1ab6ee72e4f62bf50a",
+    "summary": "반도체 섹터는 삼성전자, SK하이닉스, 엔비디아와 직접 연결되는 핵심 섹터로, AI 정보 추적과도 연결됨.",
+    "keywords": [
+      "반도체",
+      "삼성전자",
+      "SK하이닉스",
+      "엔비디아",
+      "AI"
+    ],
+    "tags": [
+      "finance",
+      "stocks",
+      "semiconductor"
+    ],
+    "related_topics": [
+      "주식 뉴스 브리핑",
+      "AI 정보 추적"
+    ]
   },
   {
     "file": "자산과 일/종목/삼성전자.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "de6a91db4bb04998ba038897c23db4690b0be03a66a14c603ba4e15a72a97a08",
+    "summary": "삼성전자 주식에 대한 정보와 보유 현황",
+    "keywords": [
+      "삼성전자",
+      "주식",
+      "반도체"
+    ],
+    "tags": [
+      "finance",
+      "stocks",
+      "semiconductor"
+    ],
+    "related_topics": [
+      "주식 포트폴리오",
+      "메모리 업황",
+      "파운드리"
+    ]
   },
   {
     "file": "자산과 일/종목/아메리칸 익스프레스.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "ae9ac40099e182b518ec130bf03b20785c91c2f4c9e0c77d1240d16564051eff",
+    "summary": "아메리칸 익스프레스 주식 보유 현황",
+    "keywords": [
+      "아메리칸 익스프레스",
+      "주식",
+      "보유 현황"
+    ],
+    "tags": [
+      "finance",
+      "stocks",
+      "us-stock"
+    ],
+    "related_topics": [
+      "주식 포트폴리오",
+      "미국 주식"
+    ]
   },
   {
     "file": "자산과 일/종목/엔비디아.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "fc92c7767b3020a27baba8e29501d9c2e790951a8e1058b036241b5e653ff486",
+    "summary": "엔비디아 주식에 대한 정보와 추적 이유, 확인 포인트, 보유 현황",
+    "keywords": [
+      "엔비디아",
+      "주식",
+      "반도체",
+      "AI"
+    ],
+    "tags": [
+      "finance",
+      "stocks",
+      "semiconductor",
+      "ai"
+    ],
+    "related_topics": [
+      "주식 포트폴리오",
+      "반도체 산업",
+      "AI 기술"
+    ]
   },
   {
     "file": "자산과 일/종목/인텔.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "4a01c8559ef7807b8577193817acc7f31d7b7c95bb5a21edb518e84961f8bd4d",
+    "summary": "인텔 주식 보유 현황",
+    "keywords": [
+      "인텔",
+      "주식",
+      "반도체"
+    ],
+    "tags": [
+      "finance",
+      "stocks",
+      "us-stock",
+      "semiconductor"
+    ],
+    "related_topics": [
+      "주식 포트폴리오",
+      "반도체 산업"
+    ]
   },
   {
     "file": "자산과 일/종목/패브리넷.md",
