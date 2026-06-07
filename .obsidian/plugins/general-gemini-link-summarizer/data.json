@@ -1,5 +1,5 @@
 {
-  "apiKey": "git push -u origin main",
+  "apiKey": "AQ.Ab8RN6Jfl6GRcPZuKwLY-T7cYcnqsjjiFc7LF7s_YpT-DM6IBQ",
   "model": "gemini-2.5-flash",
   "outputFolder": "자료/링크 요약",
   "appendLinkToSource": true,
