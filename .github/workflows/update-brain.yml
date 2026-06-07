@@ -1,21 +1,20 @@
 name: Update Second Brain
 
+concurrency:
+  group: update-second-brain
+  cancel-in-progress: false
+
 on:
   push:
     paths-ignore:
       - "ai-index/**"
   schedule:
-  - cron: "17 * * * *"
-  - cron: "37 * * * *"
-  - cron: "57 * * * *"
+    - cron: "0 * * * *"
+    - cron: "30 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
-
-concurrency:
-  group: update-second-brain
-  cancel-in-progress: false
 
 jobs:
   update-brain:
@@ -41,11 +40,13 @@ jobs:
         run: python scripts/update_brain.py
 
       - name: Commit AI updates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add ai-index/
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "update ai index"
-          git pull --rebase origin main
-          git push
+          git pull --rebase origin main || { echo "Rebase failed, skipping push"; exit 0; }
+          git push origin main

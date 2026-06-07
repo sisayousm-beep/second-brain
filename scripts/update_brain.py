@@ -15,12 +15,17 @@ client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
 TARGET_EXTENSIONS = {".md", ".txt"}
 EXCLUDE_DIRS = {".git", ".github", "scripts", "ai-index", ".obsidian"}
-MAX_FILES_PER_RUN = 5
-SLEEP_SECONDS = 15
+EXCLUDE_FILES = {"requirements.txt", "AGENTS.md", "CLAUDE.md"}
+MAX_FILES_PER_RUN = 3
+SLEEP_SECONDS = 10
 
 
 def should_skip(path: Path) -> bool:
-    return any(part in EXCLUDE_DIRS for part in path.parts)
+    if any(part in EXCLUDE_DIRS for part in path.parts):
+        return True
+    if path.name in EXCLUDE_FILES:
+        return True
+    return False
 
 
 def file_hash(text: str) -> str:
@@ -37,7 +42,6 @@ def clean_json(raw: str) -> str:
 def load_existing() -> list:
     if not OUTPUT_PATH.exists():
         return []
-
     try:
         return json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
     except Exception:
@@ -55,7 +59,7 @@ def summarize_file(path: Path, text: str, content_hash: str) -> dict:
     prompt = f"""
 다음 문서를 세컨드 브레인용으로 정리해줘.
 
-반드시 JSON만 출력해.
+반드시 JSON만 출력해. 다른 텍스트나 마크다운 코드블록 없이 JSON만.
 
 형식:
 {{
@@ -86,8 +90,9 @@ def summarize_file(path: Path, text: str, content_hash: str) -> dict:
             return data
 
         except Exception as e:
-            print(f"Error processing {path}: {e}")
-            time.sleep(30)
+            print(f"Attempt {attempt + 1} failed for {path}: {e}")
+            if attempt < 2:
+                time.sleep(30)
 
     return {
         "file": str(path),
@@ -103,49 +108,40 @@ def main():
     results = load_existing()
     result_map = {item.get("file"): item for item in results if item.get("file")}
 
-    candidates = []
+    # 처리 실패 문서를 먼저, 그 다음 새 문서 / 수정 문서
+    failed = []
+    pending = []
 
     for path in sorted(ROOT.rglob("*")):
         if not path.is_file():
             continue
-
         if path.suffix.lower() not in TARGET_EXTENSIONS:
             continue
-
         if should_skip(path):
             continue
 
         text = path.read_text(encoding="utf-8", errors="ignore")
         content_hash = file_hash(text)
-
         existing = result_map.get(str(path))
 
-        if existing is None:
-            candidates.append((path, text, content_hash))
-            continue
+        if existing is None or existing.get("hash") != content_hash:
+            pending.append((path, text, content_hash))
+        elif existing.get("summary") == "처리 실패":
+            failed.append((path, text, content_hash))
 
-        if existing.get("hash") != content_hash:
-            candidates.append((path, text, content_hash))
-            continue
-
-        if existing.get("summary") == "처리 실패":
-            candidates.append((path, text, content_hash))
-            continue
-
-    print(f"Pending files: {len(candidates)}")
+    candidates = failed + pending
+    print(f"Pending: {len(pending)}, Failed: {len(failed)}, Total: {len(candidates)}")
 
     processed = 0
 
     for path, text, content_hash in candidates[:MAX_FILES_PER_RUN]:
         print(f"Processing: {path}")
-
         result_map[str(path)] = summarize_file(path, text, content_hash)
-
         processed += 1
-        time.sleep(SLEEP_SECONDS)
+        if processed < MAX_FILES_PER_RUN:
+            time.sleep(SLEEP_SECONDS)
 
     final_results = [result_map[key] for key in sorted(result_map.keys())]
-
     save_results(final_results)
 
     print(f"Processed this run: {processed}")
