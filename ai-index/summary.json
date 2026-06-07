@@ -256,10 +256,26 @@
   {
     "file": "AI/클로드.md",
     "hash": "a1121ac637a560257ff71c4c3f339495eff88ffc543dd0c59d5b8bf0d949bb2b",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "summary": "클로드는 현재 월 20달러 요금제를 사용하는 주요 AI 도구 중 하나로, AI 에이전트 및 정보 추적에서 중요하게 다루어진다. 향후 문서에 주 사용 목적, 장단점, 구독 상태, 타 도구와의 비교 등의 상세 정보가 추가될 예정이다.",
+    "keywords": [
+      "클로드",
+      "AI 도구",
+      "AI 에이전트",
+      "정보 추적",
+      "구독",
+      "20달러"
+    ],
+    "tags": [
+      "ai",
+      "tool"
+    ],
+    "related_topics": [
+      "AI",
+      "AI 에이전트",
+      "AI 정보 추적",
+      "구독 관리",
+      "도구 비교"
+    ]
   },
   {
     "file": "Second_Brain_Guidelines.md",
@@ -325,37 +341,37 @@
   },
   {
     "file": "개발.md",
-    "summary": "개발 관련 주제를 위한 허브 문서로, GitHub, 프로젝트 관리, 세컨드 브레인 자동화 설정 등의 하위 문서와 개별 프로젝트 및 자동화 관리에 대한 운영 원칙을 정의합니다.",
-    "keywords": [
-      "개발",
-      "허브",
-      "GitHub",
-      "프로젝트",
-      "자동화",
-      "세컨드브레인",
-      "운영 원칙"
-    ],
-    "tags": [
-      "development",
-      "hub"
-    ],
-    "related_topics": [
-      "홈",
-      "GitHub",
-      "프로젝트",
-      "세컨드브레인 자동화"
-    ]
-  },
-  {
-    "file": "개발/GitHub.md",
-    "hash": "f0b2ba0cf124c63914f45196f9301703bddebc692c1ffe3f21073e9bdca0769e",
+    "hash": "63f135d53d38077a6d675248f1206cc5086e2b461b73ee6e3a85057ecd0784f8",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
     "related_topics": []
   },
   {
+    "file": "개발/GitHub.md",
+    "hash": "f0b2ba0cf124c63914f45196f9301703bddebc692c1ffe3f21073e9bdca0769e",
+    "summary": "이 문서는 사용자의 GitHub 프로필 페이지로, GitHub URL (sisayousm-beep)을 명시하고 있습니다. 현재 여러 AI 도구를 활용한 프로젝트를 진행 중이며 ATLAS를 경험하고 있음을 메모합니다. 향후 주요 저장소, 프로젝트별 사용 AI 도구, 완성도, 배운 점, 다시 참고할 코드 등의 세부 정보를 추가할 계획을 담고 있습니다.",
+    "keywords": [
+      "GitHub",
+      "AI 도구",
+      "프로젝트",
+      "ATLAS",
+      "개발",
+      "프로필"
+    ],
+    "tags": [
+      "development",
+      "github"
+    ],
+    "related_topics": [
+      "개발",
+      "인공지능",
+      "프로젝트 관리"
+    ]
+  },
+  {
     "file": "개발/프로젝트.md",
+    "hash": "ddb2ba0ce71526c8de6ac32f4f8f7d34efa1d9f83ff98d96266fb81178484392",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
@@ -418,6 +434,7 @@
   },
   {
     "file": "개발/프로젝트/YouTube Gemini Summarizer.md",
+    "hash": "b4b8ca13626237c8d959538c3d97b13b7c60a64a47db898aad421eafda1128ad",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
