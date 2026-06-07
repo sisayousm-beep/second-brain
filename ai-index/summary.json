@@ -1818,98 +1818,200 @@
   },
   {
     "file": "취미/게임.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "a82f16d11ca301ad1f6b335003b02b43b40746dc6383245b3f21e2bf16544149",
+    "summary": "게임에 대한 문서 요약",
+    "keywords": [
+      "게임",
+      "캐릭터 수집",
+      "라이브 서비스",
+      "스팀 게임"
+    ],
+    "tags": [
+      "games",
+      "entertainment"
+    ],
+    "related_topics": [
+      "취미",
+      "엔터테인먼트"
+    ]
   },
   {
     "file": "취미/유튜브/유튜브.md",
-    "summary": "사용자의 유튜브 시청 습관, 선호 채널, 자주 보는 영상 주제를 정리한 문서입니다. 다양한 게임 정보 영상(주로 모바일 게임 업데이트, 공략)과 엔터테인먼트 채널(슈카월드, 윤가놈 등), 학습 채널(3Blue1Brown)을 시청하며, 향후 시청 채널 및 영상 유형 기록 방법을 개선하고 더 많은 채널을 탐색할 계획을 포함하고 있습니다.",
+    "hash": "7ecde662d1f2bafe6ead0d8c88a41f9643389f643276d0b446d70b60a3cda2a4",
+    "summary": "유튜브 시청 성향, 좋아하는 채널, 게임 채널, 공부/정보용 채널에 대한 정보",
     "keywords": [
       "유튜브",
-      "시청습관",
       "게임",
-      "모바일게임",
-      "공략",
-      "정보영상",
-      "슈카월드",
-      "녹두로",
-      "3Blue1Brown",
-      "취미"
+      "채널",
+      "영상"
     ],
     "tags": [
-      "youtube",
-      "entertainment",
-      "게임",
-      "모바일게임",
-      "정보",
-      "학습",
-      "취미"
+      "유튜브",
+      "엔터테인먼트"
     ],
     "related_topics": [
-      "콘텐츠 소비 패턴",
-      "게임 취향",
-      "온라인 학습 자료",
-      "알고리즘 추천 분석",
-      "미디어 시청 기록"
+      "게임",
+      "영상",
+      "취미"
     ]
   },
   {
     "file": "취미/유튜브/채널/근가놈.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "e1a0ad3b08973cfac10d7bb89927a182049b1d6f5c4b983685bdf4a738668078",
+    "summary": "근가놈 유튜브 채널에 대한 정보",
+    "keywords": [
+      "근가놈",
+      "유튜브 채널"
+    ],
+    "tags": [
+      "유튜브",
+      "채널"
+    ],
+    "related_topics": [
+      "유튜브 시청 기록",
+      "독타입챌린지"
+    ]
   },
   {
     "file": "취미/유튜브/채널/녹두로.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "7af93b576da513c44cce066ffea2904ccb7b7036e2cbf3d94a00b9627565622f",
+    "summary": "녹두로 채널에 대한 문서",
+    "keywords": [
+      "녹두로",
+      "유튜브 채널",
+      "게임"
+    ],
+    "tags": [
+      "유튜브",
+      "채널",
+      "게임"
+    ],
+    "related_topics": [
+      "유튜브",
+      "게임 채널"
+    ]
   },
   {
     "file": "취미/유튜브/채널/발젭.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "91d2f0bd72a5f784f5bc9fd09cfc9d727fddc75ca00a618492435b8553aa9436",
+    "summary": "유튜브 채널 발젭에 대한 문서",
+    "keywords": [
+      "유튜브",
+      "채널",
+      "발젭",
+      "게임"
+    ],
+    "tags": [
+      "유튜브",
+      "채널",
+      "게임"
+    ],
+    "related_topics": [
+      "유튜브 채널",
+      "게임 콘텐츠"
+    ]
   },
   {
     "file": "취미/유튜브/채널/슈카월드.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "4eb4ba2af0b46998c95fb4f84edefa130772d7209be8f24eeb3e18d9874914b7",
+    "summary": "슈카월드 채널에 대한 정보",
+    "keywords": [
+      "슈카월드",
+      "유튜브 채널",
+      "경제",
+      "사회",
+      "시사"
+    ],
+    "tags": [
+      "유튜브",
+      "채널"
+    ],
+    "related_topics": [
+      "경제",
+      "사회",
+      "시사",
+      "자산",
+      "AI"
+    ]
   },
   {
     "file": "취미/유튜브/채널/윤가놈.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "8e3699939db8cfd7b40b900be065f7aad67087cb39befb8641508ab1d1e0f948",
+    "summary": "윤가놈 채널에 대한 정보",
+    "keywords": [
+      "윤가놈",
+      "유튜브 채널"
+    ],
+    "tags": [
+      "유튜브",
+      "채널"
+    ],
+    "related_topics": [
+      "근가놈 채널",
+      "유튜브 채널 목록"
+    ]
   },
   {
     "file": "취미/음악/공연 정보.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "a3971ef7397e12b9e1c45e4c1140f1436f2358ad8272ed85bfe225e6c76a891e",
+    "summary": "공연 정보 문서 요약",
+    "keywords": [
+      "공연 정보",
+      "장기하",
+      "일본 음악 아티스트",
+      "아도",
+      "요네즈 켄시",
+      "바운디",
+      "킹누",
+      "오피셜 히게단디즘"
+    ],
+    "tags": [
+      "music",
+      "concert",
+      "schedule"
+    ],
+    "related_topics": [
+      "음악",
+      "공연 일정",
+      "아티스트 내한 일정"
+    ]
   },
   {
     "file": "취미/음악/스포티파이.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "55aac9e548c1a25e5c4c1d2f4b155607fc2649f0e76fd49b8f85e0cbc4920265",
+    "summary": "스포티파이 구독 서비스에 대한 정보",
+    "keywords": [
+      "스포티파이",
+      "음악",
+      "구독"
+    ],
+    "tags": [
+      "음악",
+      "구독 서비스"
+    ],
+    "related_topics": [
+      "음악 스트리밍",
+      "음악 서비스"
+    ]
   },
   {
     "file": "취미/음악/아티스트/바운디.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "0bf592db29697793ece10681a5bd3d01a6639c7eed2f7286ac1bafdf8463fd5a",
+    "summary": "바운디는 일본의 음악 아티스트입니다.",
+    "keywords": [
+      "바운디",
+      "일본 음악",
+      "아티스트"
+    ],
+    "tags": [
+      "음악",
+      "일본 음악",
+      "아티스트"
+    ],
+    "related_topics": [
+      "일본 음악 아티스트",
+      "음악"
+    ]
   },
   {
     "file": "취미/음악/아티스트/아도.md",
