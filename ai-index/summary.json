@@ -1173,17 +1173,12 @@
   },
   {
     "file": "자산과 일.md",
-    "summary": "자산과 일 허브 문서는 개인의 자산, 재정 관리 및 수입 활동을 통합적으로 관리하기 위한 상위 문서입니다. 주식 포트폴리오, 정기 구독, 특정 금융 상품(청년미래적금), 수입원(수학 과외) 등 다양한 하위 문서를 포함하며, 금융 관련 정보 접근 및 수입/지출 관리에 대한 운영 원칙을 제시합니다.",
+    "hash": "a1eee49f9010ef538420fbcaa9bda831887ab17da87ba5852cc9f1288e51114d",
+    "summary": "자산과 일에 관한 문서 요약",
     "keywords": [
-      "자산 관리",
-      "금융",
-      "투자",
-      "재정",
-      "수입",
-      "지출",
-      "포트폴리오",
-      "구독",
-      "저축"
+      "자산",
+      "일",
+      "금융"
     ],
     "tags": [
       "finance",
@@ -1191,11 +1186,9 @@
       "hub"
     ],
     "related_topics": [
-      "개인 재정 관리",
-      "투자 전략",
-      "예산 관리",
-      "재테크",
-      "소비 관리"
+      "주식",
+      "구독",
+      "수학 과외"
     ]
   },
   {
@@ -1382,38 +1375,107 @@
   },
   {
     "file": "자산과 일/종목/패브리넷.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "8f425d264ac8c35ad8818d1bc6fb34f784952e7dac042038498736ece155ac37",
+    "summary": "패브리넷 주식 보유 현황",
+    "keywords": [
+      "패브리넷",
+      "주식",
+      "보유 현황"
+    ],
+    "tags": [
+      "finance",
+      "stocks",
+      "us-stock"
+    ],
+    "related_topics": [
+      "주식 포트폴리오",
+      "주식 투자"
+    ]
   },
   {
     "file": "자산과 일/주식 뉴스 브리핑.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "6dcb63b96785ee28fc3ebe7448f63c8656edd7b8548d3555eb013ad4fc4606ac",
+    "summary": "주식 뉴스 브리핑 문서는 매일 오전 07:30에 주식에 영향을 줄 만한 뉴스와 소식을 정리하고 요약하는 문서입니다. 특히 삼성전자, SK하이닉스, 엔비디아, 반도체 섹터 중심으로 자동화 패키지를 사용하여 GitHub Actions 방식으로 실행합니다.",
+    "keywords": [
+      "주식 뉴스 브리핑",
+      "자동화",
+      "삼성전자",
+      "SK하이닉스",
+      "엔비디아",
+      "반도체"
+    ],
+    "tags": [
+      "finance",
+      "stocks",
+      "news",
+      "automation"
+    ],
+    "related_topics": [
+      "주식 시장",
+      "경제 뉴스",
+      "자동화 기술"
+    ]
   },
   {
     "file": "자산과 일/주식 포트폴리오.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "288c51b8dfa65ae4a5572f3dbdd8447dd249964dfe081b752d9f607f57a98e7d",
+    "summary": "2026-06-05 기준 주식 포트폴리오 현황",
+    "keywords": [
+      "주식 포트폴리오",
+      "투자 평가액",
+      "국내주식",
+      "해외주식"
+    ],
+    "tags": [
+      "finance",
+      "stocks",
+      "portfolio"
+    ],
+    "related_topics": [
+      "자산 관리",
+      "투자 전략"
+    ]
   },
   {
     "file": "자산과 일/청년미래적금.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "61345c1fbe01f9c4b0d089795be59a78fc34c751e4c724f9c11e355e989b47ee",
+    "summary": "청년미래적금에 대한 정보와 가입 관련 일정을 정리한 문서",
+    "keywords": [
+      "청년미래적금",
+      "금융",
+      "적금"
+    ],
+    "tags": [
+      "finance",
+      "savings",
+      "todo"
+    ],
+    "related_topics": [
+      "자산 관리",
+      "금융 계획"
+    ]
   },
   {
     "file": "참고자료/마법학_아카데미_세계관_설정_정리.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "3bf7c5e59a978181fbc695a969e76bc4c6e325618a2bac8b18e37995ab3078ac",
+    "summary": "마법학 아카데미 세계관 설정 정리",
+    "keywords": [
+      "마법학",
+      "아카데미",
+      "마력",
+      "주문",
+      "식"
+    ],
+    "tags": [
+      "마법학 아카데미",
+      "마법 세계관",
+      "마법 설정"
+    ],
+    "related_topics": [
+      "마법학",
+      "마법 세계관",
+      "마법 설정"
+    ]
   },
   {
     "file": "취미.md",
@@ -1442,31 +1504,97 @@
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 1학년 기초식이론.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "bf5c7a37a6f40a842eecea2e1dad6ca5587e8c1264133d5a88e2e2083ac91529",
+    "summary": "마법학 아카데미 1학년 기초식이론 과목의 목적과 내용을 설명하는 문서",
+    "keywords": [
+      "마법학 아카데미",
+      "기초식이론",
+      "식의 기본 개념",
+      "식의 작성법"
+    ],
+    "tags": [
+      "hobby/ai-roleplay-chatbot",
+      "worldbuilding/magic-academy",
+      "curriculum/year-1",
+      "course/basic-formula-theory"
+    ],
+    "related_topics": [
+      "마법학 아카데미 - 1학년 커리큘럼",
+      "식의 최적화이론"
+    ]
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 1학년 기초주문이론.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "6dfa157c20a5b1b2959e4bbde9719153ed911ce199f4888106e02597f11d2b8b",
+    "summary": "마법학 아카데미 1학년 기초주문이론 과목의 목적과 내용을介绍한다. 주문의 기본 개념, 영창의 정의와 필요성, 영창의 방법론, 보편적 영창논리율, 기초 주문 작성, 평가 방식 등이 포함된다.",
+    "keywords": [
+      "마법학 아카데미",
+      "기초주문이론",
+      "주문",
+      "영창",
+      "보편적 영창논리율"
+    ],
+    "tags": [
+      "hobby/ai-roleplay-chatbot",
+      "worldbuilding/magic-academy",
+      "curriculum/year-1",
+      "course/basic-spell-theory"
+    ],
+    "related_topics": [
+      "마법학 아카데미 - 1학년 커리큘럼",
+      "마법학 아카데미 - 2학년 과정"
+    ]
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 1학년 커리큘럼.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "7ec6e5c7e2ccbc81380ed1ccf3fb46dc4c8802bce6cb9097d3d386d912160bd6",
+    "summary": "마법학 아카데미 1학년 커리큘럼에 대한 문서로, 기초식이론, 기초주문이론, 기본 개념 요약, 1학년 전체 목표, 다음 학년 연결, 챗봇 사용 기준 등이 포함되어 있습니다.",
+    "keywords": [
+      "마법학 아카데미",
+      "1학년 커리큘럼",
+      "기초식이론",
+      "기초주문이론",
+      "마법",
+      "마력",
+      "식",
+      "주문",
+      "영창"
+    ],
+    "tags": [
+      "hobby/ai-roleplay-chatbot",
+      "worldbuilding/magic-academy",
+      "curriculum/year-1"
+    ],
+    "related_topics": [
+      "마법학 아카데미 2학년 커리큘럼",
+      "마법의 기초 구조",
+      "식과 주문의 차이",
+      "영창논리율"
+    ]
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 2학년 식의 기저와 차원.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "a1bfb6117bf5b1fd2951e9489a9ca67b129123313ed6b048f994b0be48526f38",
+    "summary": "마법학 아카데미 2학년 과정에서 다루는 식의 기저와 차원에 대한 내용을 설명한다. 식의 종류, 기저의 개념, 차원의 결정, 스칼라 식과 벡터 식 등에 대해 다룬다.",
+    "keywords": [
+      "식의 기저",
+      "차원",
+      "스칼라 식",
+      "벡터 식",
+      "마법학 아카데미"
+    ],
+    "tags": [
+      "마법학 아카데미",
+      "2학년",
+      "식의 기저와 차원",
+      "AI 롤플레잉 챗봇"
+    ],
+    "related_topics": [
+      "식의 최적화이론",
+      "생성마법학",
+      "구조마법학",
+      "거시마법학"
+    ]
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 2학년 식의 최적화이론.md",
