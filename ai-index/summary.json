@@ -766,25 +766,11 @@
   },
   {
     "file": "일정.md",
-    "summary": "이 문서는 '일정' 관리를 위한 허브 문서입니다. '홈' 문서의 하위이며, '스케줄 관리', '중요 날짜', '반복 일정'이라는 하위 문서를 포함합니다. 운영 원칙으로 일정을 먼저 중요 날짜와 반복 일정에 기록하고, 자동 브리핑 및 일정 처리 방식은 스케줄 관리에서 관리한다고 명시합니다.",
-    "keywords": [
-      "일정",
-      "스케줄 관리",
-      "중요 날짜",
-      "반복 일정",
-      "운영 원칙",
-      "허브"
-    ],
-    "tags": [
-      "schedule",
-      "hub"
-    ],
-    "related_topics": [
-      "홈",
-      "스케줄 관리",
-      "중요 날짜",
-      "반복 일정"
-    ]
+    "hash": "13ff57dc8046e93582a5e00ece57d0cdbf8f9088b5536b853b829b79ba3b80cc",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
   },
   {
     "file": "일정/2026_06_06_일정.md",
@@ -843,6 +829,7 @@
   },
   {
     "file": "일정/반복 일정.md",
+    "hash": "99564a8218c2eadddf1512cd00300f34b4d6c893d614c5cd65ebc75eeef2c285",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
@@ -850,34 +837,15 @@
   },
   {
     "file": "일정/스케줄 관리.md",
-    "summary": "본 문서는 세컨드 브레인 시스템 내에서 스케줄을 자동화하여 관리하는 방법에 대해 설명합니다. 매일 오전 07:00에 오늘의 일정과 근처 일정을 정리하여 컴퓨터나 CLI 없이 확인하는 것을 목표로 합니다. 현재는 Codex skill, GitHub Actions, 로컬 스크립트를 통해 구현되어 있으며, '중요 날짜', '반복 일정' 등 다양한 원천 노트에서 일정을 가져옵니다. PC가 꺼진 상태에서의 자동 실행 한계와, 일정 데이터의 부분 동기화 문제를 언급하며, GitHub 앱 알림이나 Telegram, Discord, 이메일 등의 웹훅을 통한 푸시 알림을 추천 운영 방안으로 제시합니다.",
-    "keywords": [
-      "스케줄 관리",
-      "일정 자동화",
-      "Codex skill",
-      "GitHub Actions",
-      "데일리 브리핑",
-      "푸시 알림",
-      "세컨드 브레인",
-      "PC 없는 실행"
-    ],
-    "tags": [
-      "schedule",
-      "automation",
-      "secondbrain",
-      "workflow",
-      "notification"
-    ],
-    "related_topics": [
-      "개인 자동화",
-      "일정 관리 시스템",
-      "생산성 도구 연동",
-      "알림 시스템 구축",
-      "CLI 자동화 스크립트"
-    ]
+    "hash": "0056e22fe1e5ecf3f95e8f7bfbe8907f0e0619b54046e6a4508a0c295d487d4b",
+    "summary": "처리 실패",
+    "keywords": [],
+    "tags": [],
+    "related_topics": []
   },
   {
     "file": "일정/중요 날짜.md",
+    "hash": "9e32bbd88cb5c1ee28c92ff2a7d69a0e5f3692883b4de3fb58f058bd1bd127f1",
     "summary": "처리 실패",
     "keywords": [],
     "tags": [],
