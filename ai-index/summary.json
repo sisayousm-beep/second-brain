@@ -2217,73 +2217,201 @@
   },
   {
     "file": "학업/2026년 1학기.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "1ca5d9b47cd6f95aee3a76ea6deafdff93926391e79b38c7ebc5a906df1fbb38",
+    "summary": "2026년 1학기 학업 계획 및 기록",
+    "keywords": [
+      "2026년 1학기",
+      "학업",
+      "수학과",
+      "숭실대학교"
+    ],
+    "tags": [
+      "대학",
+      "학업",
+      "1학기"
+    ],
+    "related_topics": [
+      "수학과",
+      "숭실대학교",
+      "학사 일정"
+    ]
   },
   {
     "file": "학업/과목/기하학.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "74eba40259724052ff6a0252b5f8fcd9a20b731e83f192401559c9eaa9470fda",
+    "summary": "기하학 과목에 대한 정보",
+    "keywords": [
+      "기하학",
+      "대학교",
+      "수학"
+    ],
+    "tags": [
+      "대학교",
+      "수학",
+      "과목"
+    ],
+    "related_topics": [
+      "수학",
+      "대학교 과목",
+      "학점"
+    ]
   },
   {
     "file": "학업/과목/미분방정식.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "f2208b70e51a724712e0ca5430702341d2ed697015ea10397092ac567849817c",
+    "summary": "2026년 1학기 미분방정식 수업 정보",
+    "keywords": [
+      "미분방정식",
+      "대학교",
+      "수업"
+    ],
+    "tags": [
+      "대학교",
+      "수학",
+      "수업"
+    ],
+    "related_topics": [
+      "선형대수",
+      "해석학"
+    ]
   },
   {
     "file": "학업/과목/벡터해석.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "ec5c6814ac9a7eb3df44207f9adbd10bbfe6ee9cb5b54f6e45f605f6f06b17e9",
+    "summary": "2026년 1학기 전공 과목인 벡터해석에 대한 정보",
+    "keywords": [
+      "벡터해석",
+      "대학교",
+      "수학"
+    ],
+    "tags": [
+      "대학",
+      "수학",
+      "과목"
+    ],
+    "related_topics": [
+      "선형대수",
+      "미적분학"
+    ]
   },
   {
     "file": "학업/과목/선형대수.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "0c9f78fa94ea6629b853185e166f015b595cc6ec18492f86d754444df965a844",
+    "summary": "2026년 1학기 선형대수 과목에 대한 정보",
+    "keywords": [
+      "선형대수",
+      "대학교",
+      "수학"
+    ],
+    "tags": [
+      "대학",
+      "수학",
+      "과목"
+    ],
+    "related_topics": [
+      "대학교",
+      "수학",
+      "학점"
+    ]
   },
   {
     "file": "학업/과목/해석개론.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "803b9803b2b8239e215a53794b8700d5c5f382b40dff8af2a0fde0c5a5387fa4",
+    "summary": "해석개론 과목에 대한 정보",
+    "keywords": [
+      "해석개론",
+      "대학교",
+      "수학"
+    ],
+    "tags": [
+      "대학",
+      "수학",
+      "과목"
+    ],
+    "related_topics": [
+      "대학교",
+      "수학",
+      "학점"
+    ]
   },
   {
     "file": "학업/대학교.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "480f3b632f7e372237c5de8397c32f9ae2319f7dad2e87b806eeb9e8a66e413c",
+    "summary": "대학교 학업 현황 및 계획",
+    "keywords": [
+      "대학교",
+      "수학과",
+      "학점 관리",
+      "학업 목표"
+    ],
+    "tags": [
+      "대학교",
+      "학업",
+      "수학"
+    ],
+    "related_topics": [
+      "학점 관리",
+      "학업 목표",
+      "수학과 공부"
+    ]
   },
   {
     "file": "학업/복기/2026-06-05 미분방정식 쪽지시험 복기.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "8ac92d287ef6cad5581fbbba5b866765ebdbfb3c6cd1e82ab4c79652bc43b82a",
+    "summary": "2026-06-05 미분방정식 쪽지시험 복기",
+    "keywords": [
+      "미분방정식",
+      "헤비사이드 스텝 함수",
+      "라플라스 변환"
+    ],
+    "tags": [
+      "university",
+      "math",
+      "review",
+      "differential-equations"
+    ],
+    "related_topics": [
+      "라플라스 변환",
+      "헤비사이드 스텝 함수",
+      "미분방정식"
+    ]
   },
   {
     "file": "학업/시간표.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "f0f8f82f6bb19597830de49c4d9d63c86aca7c6e655168d788b74d3db3f01c66",
+    "summary": "2026년 1학기 대학 시간표",
+    "keywords": [
+      "시간표",
+      "대학",
+      "학업"
+    ],
+    "tags": [
+      "university",
+      "timetable",
+      "study"
+    ],
+    "related_topics": [
+      "학업",
+      "대학 생활"
+    ]
   },
   {
     "file": "학업/시험 일정.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "4362a5a9ad97ee79d8ab302f7b7b634efd63de1635171f698441f227c221bab0",
+    "summary": "2026년 1학기 기말고사 일정",
+    "keywords": [
+      "2026년 1학기 기말고사",
+      "시험 일정"
+    ],
+    "tags": [
+      "대학",
+      "시험",
+      "일정"
+    ],
+    "related_topics": [
+      "학업",
+      "입대"
+    ]
   },
   {
     "file": "홈.md",
