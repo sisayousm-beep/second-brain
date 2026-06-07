@@ -1598,73 +1598,223 @@
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 2학년 식의 최적화이론.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "297f7349ab227878d25d4b0657d277ac361c36f854bf892f16c4b215ab57bacc",
+    "summary": "마법학 아카데미 2학년 식의 최적화이론 과목의 목적, 핵심 전제, 단원별 내용, 평가 방식, 챗봇 사용 기준을 설명",
+    "keywords": [
+      "마법학 아카데미",
+      "식의 최적화이론",
+      "마력 소모량",
+      "위력",
+      "가중치",
+      "최적해",
+      "기저"
+    ],
+    "tags": [
+      "hobby/ai-roleplay-chatbot",
+      "worldbuilding/magic-academy",
+      "curriculum/year-2",
+      "course/formula-optimization-theory"
+    ],
+    "related_topics": [
+      "마법학 아카데미 - 2학년 커리큘럼",
+      "미분방정식",
+      "마법의 기초"
+    ]
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 2학년 주문 체계의 정의와 종류.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "e226f528ea6cad49fb304a85a8ce257bd28056807fe191d74f1e818596ae9870",
+    "summary": "마법학 아카데미 2학년 과정에서 배우는 주문 체계의 정의와 종류에 대한 문서입니다. 영창논리율의 구조, 실현부, 논리부, 직렬실현, 병렬실현, 이원논리, 삼원논리 등에 대해 다룹니다.",
+    "keywords": [
+      "주문 체계",
+      "영창논리율",
+      "실현부",
+      "논리부",
+      "직렬실현",
+      "병렬실현",
+      "이원논리",
+      "삼원논리"
+    ],
+    "tags": [
+      "마법학 아카데미",
+      "2학년",
+      "주문 체계",
+      "영창논리율"
+    ],
+    "related_topics": [
+      "마법학 아카데미 1학년",
+      "영창논리율",
+      "고차원 마법"
+    ]
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 2학년 커리큘럼.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "10346f24768de22059ddb268f1dfe3ec273d9a7014bcdf346089f6ea92245c25",
+    "summary": "마법학 아카데미 2학년 커리큘럼은 1학년에서 배운 식과 주문을 더 깊게 분석하고, 식의 효율과 구조, 주문 체계의 기본 분류를 이해하는 것을 목표로 한다.",
+    "keywords": [
+      "마법학 아카데미",
+      "2학년 커리큘럼",
+      "식의 최적화이론",
+      "주문 체계의 정의와 종류"
+    ],
+    "tags": [
+      "hobby/ai-roleplay-chatbot",
+      "worldbuilding/magic-academy",
+      "curriculum/year-2"
+    ],
+    "related_topics": [
+      "마법학 아카데미",
+      "식의 최적화이론",
+      "주문 체계의 정의와 종류",
+      "특화 마법"
+    ]
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 3학년 커리큘럼.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "5113754065381cb76edf90c87e656d3f44bb3a42f94ce6b2ec449fae4ec39d89",
+    "summary": "마법학 아카데미 3학년 커리큘럼에 대한 문서로, 심화전공과 교양 과목을 포함한다.",
+    "keywords": [
+      "마법학 아카데미",
+      "3학년 커리큘럼",
+      "심화전공",
+      "교양"
+    ],
+    "tags": [
+      "hobby/ai-roleplay-chatbot",
+      "worldbuilding/magic-academy",
+      "curriculum/year-3"
+    ],
+    "related_topics": [
+      "마법학 아카데미",
+      "심화전공",
+      "교양"
+    ]
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 4학년 이후 학파.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "bd53fe48069ac95bbe5a0741e9d4c5ab94133830c137f1eff2e0ca8d595a886a",
+    "summary": "마법학 아카데미의 4학년 이후 학파에 대한 설명",
+    "keywords": [
+      "마법학 아카데미",
+      "학파",
+      "마력 총량"
+    ],
+    "tags": [
+      "hobby/ai-roleplay-chatbot",
+      "worldbuilding/magic-academy",
+      "faction"
+    ],
+    "related_topics": [
+      "마법학 아카데미",
+      "마력 총량",
+      "학파"
+    ]
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 4학년 커리큘럼.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "18a4acb81cec2dddf822ba91ee1e3efafb02b7e19815f30ad6619992e7a779a4",
+    "summary": "마법학 아카데미 4학년 커리큘럼에 대한 문서로, 4학년의 학년 성격, 심화전공, 교양, 현재 설정 상태, 챗봇 사용 기준을 설명한다.",
+    "keywords": [
+      "마법학 아카데미",
+      "4학년 커리큘럼",
+      "심화전공",
+      "교양",
+      "챗봇 사용 기준"
+    ],
+    "tags": [
+      "마법학 아카데미",
+      "4학년",
+      "심화전공",
+      "교양",
+      "챗봇"
+    ],
+    "related_topics": [
+      "마법학 아카데미 3학년 커리큘럼",
+      "마법학 아카데미 5학년 커리큘럼",
+      "마법학사",
+      "무영창마법학"
+    ]
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 기본 개념.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "73a77e2680dd9e7cc3e2eb656144bc4a44b9e6cce00fddeb19eebc8ccae750b9",
+    "summary": "마법학 아카데미의 기본 개념을 설명하는 문서로, 마법, 마력, 식, 주문, 영창 등의 용어를 정의하고, 개념 관계를 설명한다.",
+    "keywords": [
+      "마법학 아카데미",
+      "마법",
+      "마력",
+      "식",
+      "주문",
+      "영창"
+    ],
+    "tags": [
+      "hobby/ai-roleplay-chatbot",
+      "worldbuilding/magic-academy"
+    ],
+    "related_topics": [
+      "마법학 아카데미",
+      "마법 세계관",
+      "마법 체계"
+    ]
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 세계관 방향.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "330b9e70fe1cd85b1cee0c948e1ba6def6e3f58c0bf55bf30fd147f8b6a2405c",
+    "summary": "마법학 아카데미 세계관의 기본 방향은 마법을 실제 학문처럼 다루는 아카데미물을 만드는 것이다.",
+    "keywords": [
+      "마법학 아카데미",
+      "세계관",
+      "아카데미물"
+    ],
+    "tags": [
+      "hobby/ai-roleplay-chatbot",
+      "worldbuilding/magic-academy"
+    ],
+    "related_topics": [
+      "마법학",
+      "아카데미물",
+      "세계관"
+    ]
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미 - 커리큘럼 총정리.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "4a8a554408afef2dda07251dc71aea9ea2dbfe2a8ab852749248364afa297e7f",
+    "summary": "마법학 아카데미의 학년별 학습 흐름을 총정리한 문서",
+    "keywords": [
+      "마법학 아카데미",
+      "커리큘럼",
+      "학습 흐름",
+      "마법학"
+    ],
+    "tags": [
+      "hobby/ai-roleplay-chatbot",
+      "worldbuilding/magic-academy",
+      "curriculum"
+    ],
+    "related_topics": [
+      "마법학",
+      "학습 흐름",
+      "롤플레잉"
+    ]
   },
   {
     "file": "취미/AI 롤플레잉 챗봇/마법학 아카데미.md",
-    "summary": "처리 실패",
-    "keywords": [],
-    "tags": [],
-    "related_topics": []
+    "hash": "0404fa77353b89a46082e133d83ce66e88c6fce373ec19e64c3d83d37f496ef5",
+    "summary": "마법학 아카데미는 학문 중심의 마법 세계관으로, 기존 생성형 AI에 세계관과 설정을 넣어 롤플레잉 챗봇으로 사용할 수 있도록 만든다.",
+    "keywords": [
+      "마법학 아카데미",
+      "AI 롤플레잉 챗봇",
+      "학문 중심"
+    ],
+    "tags": [
+      "hobby/ai-roleplay-chatbot",
+      "worldbuilding/magic-academy"
+    ],
+    "related_topics": [
+      "마법 세계관",
+      "AI 챗봇",
+      "학문 중심 설정"
+    ]
   },
   {
     "file": "취미/게임.md",
