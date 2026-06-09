@@ -1,5 +1,12 @@
 # Codex 작업 지침
 
+## 프로젝트 맥락 참고
+
+- 이 저장소 전체의 현재 구조와 요약은 `ai-index/project_overview.json`을 우선 참고한다.
+- 파일별 최신 요약, 키워드, 태그, 관련 주제는 `ai-index/summary.json`을 함께 확인한다.
+- 사용자가 세컨드 브레인 전체 구조, 프로젝트 성격, 현재 저장된 내용, 파일별 요약을 물으면 `ai-index/project_overview.json`을 프로젝트 소스로 사용한다.
+- 세컨드 브레인의 큰 구조나 핵심 내용이 바뀌면 `ai-index/project_overview.json`도 함께 갱신한다.
+
 ## 수학 노트 작성
 
 - 수학 노트, 특히 `학업/과목` 아래의 수학 과목 정리는 LaTeX 수식 문법으로 작성한다.
